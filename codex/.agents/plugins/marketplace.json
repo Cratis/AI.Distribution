@@ -1,0 +1,20 @@
+{
+  "name": "cratis",
+  "interface": {
+    "displayName": "Cratis"
+  },
+  "plugins": [
+    {
+      "name": "cratis",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cratis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@cratis/ai",
+  "version": "0.0.0-fixture",
+  "description": "Private passive Cratis skills fixture.",
+  "private": true,
+  "license": "MIT",
+  "files": [
+    "skills"
+  ],
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}

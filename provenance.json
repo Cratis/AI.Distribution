@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0.0",
+  "state": "FIXTURE_ONLY_NOT_AN_ATTESTATION",
+  "canonicalRepository": "Cratis/AI",
+  "sourceArtifactId": "sanitized-public-materializer-fixture",
+  "sourceRevision": null,
+  "generator": "tooling/generate-distribution-fixture.mjs",
+  "version": "0.0.0-fixture",
+  "requirementsSha256": "9a937aaa98f18a2ea84150cac12790c917637886898d6adbc50d84d6b35bdbae",
+  "matrixSha256": "0f71f76c7105a51f20a308ded4946bd1c37a53bd6c09188c73e9a7396cf1d999",
+  "canonicalFiles": [
+    {
+      "path": "skills/cratis-example/LICENSE",
+      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
+      "size": 142
+    },
+    {
+      "path": "skills/cratis-example/SKILL.md",
+      "sha256": "53d2558526ac9e045d678c8474a990113a47dbc829aaf5cf1e9c5fa2e5e707ea",
+      "size": 246
+    },
+    {
+      "path": "skills/cratis-example/assets/example.txt",
+      "sha256": "55b477cd965ea5b7591cfd935e3a859175b65b28a71fda708bdb52d8e4efc46b",
+      "size": 79
+    },
+    {
+      "path": "skills/cratis-example/references/guide.md",
+      "sha256": "e239fea6f77cca9286f70ce18a9f4e84849b9dd7c2e74ecf27314f8167b40864",
+      "size": 148
+    }
+  ],
+  "publicationEligible": false,
+  "promotionEligible": false
+}
