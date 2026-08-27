@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0.0",
+  "state": "S4_DETERMINISTIC_GENERATION_ASSURANCE",
+  "releaseManifest": {
+    "path": "candidate-asset-manifest.json",
+    "sha256": "7ed4cc94616514b0ae27b81891060932d17104b6805f0749c1f1fc28491baf3e",
+    "state": "DETERMINISTIC_RELEASE_TREE_VALIDATED",
+    "fileCount": 34,
+    "totalBytes": 1402056
+  },
+  "classes": [
+    {
+      "id": "passive-skill-package",
+      "assuranceProfileIds": [
+        "passive-private-fixture-v1",
+        "passive-public-package-v1"
+      ],
+      "requiredAssurances": [
+        "canonical-parity",
+        "immutable-source",
+        "path-scanning",
+        "secret-scanning",
+        "sha256-inventory"
+      ],
+      "observedAssurances": [
+        "canonical-parity",
+        "immutable-source",
+        "path-scanning",
+        "secret-scanning",
+        "sha256-inventory"
+      ],
+      "outcome": "pass"
+    },
+    {
+      "id": "passive-native-metadata",
+      "assuranceProfileIds": [
+        "passive-private-fixture-v1",
+        "passive-public-package-v1"
+      ],
+      "requiredAssurances": [
+        "canonical-parity",
+        "immutable-source",
+        "path-scanning",
+        "secret-scanning",
+        "sha256-inventory"
+      ],
+      "observedAssurances": [
+        "canonical-parity",
+        "immutable-source",
+        "path-scanning",
+        "secret-scanning",
+        "sha256-inventory"
+      ],
+      "outcome": "pass"
+    },
+    {
+      "id": "marketplace-index",
+      "assuranceProfileIds": [
+        "publication-metadata-v1"
+      ],
+      "requiredAssurances": [
+        "immutable-source",
+        "path-scanning",
+        "secret-scanning",
+        "sha256-inventory"
+      ],
+      "observedAssurances": [
+        "immutable-source",
+        "path-scanning",
+        "secret-scanning",
+        "sha256-inventory"
+      ],
+      "outcome": "pass"
+    }
+  ],
+  "staticValidationInput": {
+    "assuranceId": "static-validation",
+    "outcome": "pass",
+    "supporting": false,
+    "reason": "Complete deterministic generation validation is an S2 static-validation input; it does not establish support, publication, runtime, or promotion approval."
+  },
+  "supportGranted": false,
+  "publicationGranted": false,
+  "runtimeGranted": false,
+  "promotionGranted": false
+}
