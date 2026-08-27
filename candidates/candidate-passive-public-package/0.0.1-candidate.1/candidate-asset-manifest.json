@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.0.0",
+  "state": "DETERMINISTIC_RELEASE_TREE_VALIDATED",
+  "artifactId": "candidate-passive-public-package",
+  "audience": "public",
+  "bundleId": "public-all-candidate",
+  "version": "0.0.1-candidate.1",
+  "files": [
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-agent-plugin.tar.gz",
+      "size": 100815,
+      "sha256": "0e609875769ab6eff6a3ed18216bc58e1b084140471703b37de8db32ab077e0a"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-agent-skills.tar.gz",
+      "size": 100557,
+      "sha256": "d8e6aa6f3e5e3ccd392b98051ceffe6ca462eb9ab86286aeaf880cd30920ad49"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-amp.tar.gz",
+      "size": 100556,
+      "sha256": "b939dbcfbd1b9225e2dbe1cac0c7d46f885c155ff058421d75cd7d0cfb06a984"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-augment.tar.gz",
+      "size": 100544,
+      "sha256": "bc1610921d31e4768f65fbeda807b511146badb0196c77a03e0f9311cf2e284d"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-claude.tar.gz",
+      "size": 100813,
+      "sha256": "6e3ea0e5117c7578e057cf0c46f76b951b169c7eb5add2f964e6d5b57ef6fbfa"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-cline.tar.gz",
+      "size": 100553,
+      "sha256": "dc7693cfee7a27a55000248fab2a2257c479441ccce45a36b9c9153a3e2b3136"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-codex.tar.gz",
+      "size": 100849,
+      "sha256": "d51d4d832ff39d27471f9bb8116c036c164004daac558dd85c6085e354357e90"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-copilot.tar.gz",
+      "size": 100921,
+      "sha256": "32e2c4824a60c08878272d95c56a2763fa0c4c1f5566571caa9251066736550f"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-cursor.tar.gz",
+      "size": 100911,
+      "sha256": "86b2e58f0b3d449cae5b5e29cf64b88f75b16ab1c91ad1eec7c14ad9259835f5"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-deepcode.tar.gz",
+      "size": 100546,
+      "sha256": "6d07cf702cd862bbecd12f6f8df648e94dca0dc4cc77479c6b441c8739ba28ff"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-deepseek.tar.gz",
+      "size": 100552,
+      "sha256": "56f171464fafbcefee09e3c85bff477d0a6c6594ced16eb4b98b1c0d20fb3ae7"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-devin.tar.gz",
+      "size": 100556,
+      "sha256": "b939dbcfbd1b9225e2dbe1cac0c7d46f885c155ff058421d75cd7d0cfb06a984"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-factory.tar.gz",
+      "size": 100544,
+      "sha256": "03e570bbb681c0a11faa7d5253d6d32bad2167aaf2adcf8973ea9ed3a6963cff"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-gemini.tar.gz",
+      "size": 100683,
+      "sha256": "b9fc4ce114bce1a99c24867045bd5cabc538095bf5a0e0ef1b620ee20cc75019"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-github-cli.tar.gz",
+      "size": 100556,
+      "sha256": "b939dbcfbd1b9225e2dbe1cac0c7d46f885c155ff058421d75cd7d0cfb06a984"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-goose.tar.gz",
+      "size": 100556,
+      "sha256": "b939dbcfbd1b9225e2dbe1cac0c7d46f885c155ff058421d75cd7d0cfb06a984"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-grok-bot.tar.gz",
+      "size": 100815,
+      "sha256": "0e609875769ab6eff6a3ed18216bc58e1b084140471703b37de8db32ab077e0a"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-grok-native.tar.gz",
+      "size": 100549,
+      "sha256": "c17c7cebcbbeda8d0bed3618d36a4a97f15c313321d49488f495834459f1d176"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-grok.tar.gz",
+      "size": 100813,
+      "sha256": "6e3ea0e5117c7578e057cf0c46f76b951b169c7eb5add2f964e6d5b57ef6fbfa"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-hermes.tar.gz",
+      "size": 100815,
+      "sha256": "0e609875769ab6eff6a3ed18216bc58e1b084140471703b37de8db32ab077e0a"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-junie.tar.gz",
+      "size": 100813,
+      "sha256": "6e3ea0e5117c7578e057cf0c46f76b951b169c7eb5add2f964e6d5b57ef6fbfa"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-kilo.tar.gz",
+      "size": 100555,
+      "sha256": "a4b69b475e2ac532634e5cabe190cca431bb840bdfd404e26164c4ac0b7f92df"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-kiro.tar.gz",
+      "size": 100815,
+      "sha256": "0e609875769ab6eff6a3ed18216bc58e1b084140471703b37de8db32ab077e0a"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-nanoclaw.tar.gz",
+      "size": 100815,
+      "sha256": "0e609875769ab6eff6a3ed18216bc58e1b084140471703b37de8db32ab077e0a"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-openclaw.tar.gz",
+      "size": 100815,
+      "sha256": "0e609875769ab6eff6a3ed18216bc58e1b084140471703b37de8db32ab077e0a"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-opencode.tar.gz",
+      "size": 100544,
+      "sha256": "50d24d08074889fcbe779981dd6433e3d0c4f5ca5e183ce11e5c86a04a11c6dd"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-openhands.tar.gz",
+      "size": 100556,
+      "sha256": "b939dbcfbd1b9225e2dbe1cac0c7d46f885c155ff058421d75cd7d0cfb06a984"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-pi.tgz",
+      "size": 100803,
+      "sha256": "f27a4b15d83bc26103641fabfac554fadc884a19575a1422dfa1e7931657efbe"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-qwen.tar.gz",
+      "size": 100815,
+      "sha256": "0e609875769ab6eff6a3ed18216bc58e1b084140471703b37de8db32ab077e0a"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-replit.tar.gz",
+      "size": 100556,
+      "sha256": "b939dbcfbd1b9225e2dbe1cac0c7d46f885c155ff058421d75cd7d0cfb06a984"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-visual-studio.tar.gz",
+      "size": 100546,
+      "sha256": "fc741a4c6c51fd09e7ab22c8d586b506040a1feb6acea3dbd99169ef4365a22d"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-vscode.tar.gz",
+      "size": 100815,
+      "sha256": "0e609875769ab6eff6a3ed18216bc58e1b084140471703b37de8db32ab077e0a"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-windsurf.tar.gz",
+      "size": 100549,
+      "sha256": "5c0c326d1d297728f0f9d4e60652588d3bc84fe4450c4f4694857f923eae740e"
+    },
+    {
+      "path": "cratis-ai-public-all-candidate-0.0.1-candidate.1-zed.tar.gz",
+      "size": 100556,
+      "sha256": "b939dbcfbd1b9225e2dbe1cac0c7d46f885c155ff058421d75cd7d0cfb06a984"
+    }
+  ],
+  "fileCount": 34,
+  "totalBytes": 3423057,
+  "approvalGranted": false,
+  "supportGranted": false,
+  "publicationGranted": false,
+  "runtimeGranted": false,
+  "promotionGranted": false
+}

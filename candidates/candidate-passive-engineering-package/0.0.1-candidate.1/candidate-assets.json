@@ -1,0 +1,551 @@
+{
+  "schemaVersion": "1.0.0",
+  "schemaPath": "distribution/passive-candidate-assets.schema.json",
+  "schemaSha256": "9e083b9e4e7719fc942449a64bc711070dc8e318aec08bb812f774589137ff9a",
+  "state": "PASSIVE_CANDIDATE_REVIEW_ONLY",
+  "artifactId": "candidate-passive-engineering-package",
+  "audience": "cratis-engineering",
+  "bundleId": "engineering-all-candidate",
+  "packageName": "@cratis/ai-engineering-candidate",
+  "version": "0.0.1-candidate.1",
+  "sourceCommit": "b540e1016b873bdcc75b1831ab23c2d47f49bc55",
+  "generatorPaths": [
+    "tooling/candidate-component-coverage.mjs",
+    "tooling/catalog-ordering.mjs",
+    "tooling/catalog-validation.mjs",
+    "tooling/deterministic-release-tree.mjs",
+    "tooling/harness-registry.mjs",
+    "tooling/package-fundamentals-preview-assets.mjs",
+    "tooling/package-passive-candidate-assets.mjs",
+    "tooling/passive-profile-adapters.mjs",
+    "tooling/portable-compliance-validation.mjs",
+    "tooling/public-artifact-materializer.mjs",
+    "tooling/release-assurance-validation.mjs",
+    "tooling/release-context.mjs"
+  ],
+  "generatorDigest": "34c024ee3b174101b3c09fe664c2c9ddd02d1c3bc1adc7faad4a9a01f751e18e",
+  "componentCatalogSha256": "7b009efdcb75783043532923faf3ee88f62381259daaeb4e95eb56145b4b8a08",
+  "componentCoveragePath": "candidate-component-coverage.json",
+  "componentCoverageSha256": "d417cc640a47a2493d698ea240436daa04cfbca12e30a04cae5914cb40d4c2ed",
+  "targetIds": [
+    "cratis-engineering-chronicle-kernel-tracing",
+    "cratis-engineering-csharp-conventions",
+    "cratis-engineering-docs-add-page",
+    "cratis-engineering-docs-authoring",
+    "cratis-engineering-docs-edit-page",
+    "cratis-engineering-ship-changes",
+    "skill-creator"
+  ],
+  "targetExclusions": [
+    {
+      "targetId": "cratis-engineering-docs-visual-qa",
+      "reason": "private-or-local-content"
+    }
+  ],
+  "repositoryOnlySkillExclusions": [
+    {
+      "componentId": "cratis-legacy-add-concept",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/add-concept"
+      ],
+      "reason": "legacy-retained-repository-only"
+    },
+    {
+      "componentId": "cratis-legacy-add-cratis-docs-page",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/add-cratis-docs-page"
+      ],
+      "reason": "legacy-retained-repository-only"
+    },
+    {
+      "componentId": "cratis-legacy-edit-cratis-docs",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/edit-cratis-docs"
+      ],
+      "reason": "legacy-retained-repository-only"
+    },
+    {
+      "componentId": "cratis-legacy-write-documentation",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/write-documentation"
+      ],
+      "reason": "legacy-retained-repository-only"
+    }
+  ],
+  "sourceSkills": [
+    {
+      "sourceId": "add-cratis-docs-page",
+      "sourcePath": "engineering/skills/cratis-engineering-docs-add-page",
+      "sourceRevision": "684d03755bacd40af95463b81b4a0c8b9f088ec1",
+      "contentDigest": "60bb6acfc3af73b3c8d0e300f2620d74999ad8f0bc47dbaf207783225ae1f085",
+      "sourceContractPaths": [
+        "engineering/skills/cratis-engineering-docs-add-page/LICENSE",
+        "engineering/skills/cratis-engineering-docs-add-page/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-add-page/references/ownership-and-navigation.md"
+      ],
+      "packagedSourcePaths": [
+        "engineering/skills/cratis-engineering-docs-add-page/LICENSE",
+        "engineering/skills/cratis-engineering-docs-add-page/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-add-page/references/ownership-and-navigation.md"
+      ],
+      "excludedSourcePaths": []
+    },
+    {
+      "sourceId": "add-traces",
+      "sourcePath": ".ai/skills/add-traces",
+      "sourceRevision": "b795d5307e20f7f7458a67708b4f26975e223796",
+      "contentDigest": "95b503d37799819abd59f1a920dd33a574d49bc74bac96127a0ac0009a95036b",
+      "sourceContractPaths": [
+        ".ai/skills/add-traces/SKILL.md"
+      ],
+      "packagedSourcePaths": [
+        ".ai/skills/add-traces/SKILL.md"
+      ],
+      "excludedSourcePaths": []
+    },
+    {
+      "sourceId": "cratis-csharp-standards",
+      "sourcePath": ".ai/skills/cratis-csharp-standards",
+      "sourceRevision": "b795d5307e20f7f7458a67708b4f26975e223796",
+      "contentDigest": "87744eca811ce6c8f733a8e6fdb3f570e35e78b8e9a5eabcf2fca8339e01fb59",
+      "sourceContractPaths": [
+        ".ai/skills/cratis-csharp-standards/SKILL.md",
+        ".ai/skills/cratis-csharp-standards/evals/evals.json",
+        ".ai/skills/cratis-csharp-standards/references/code-style.md",
+        ".ai/skills/cratis-csharp-standards/references/domain-philosophy.md",
+        ".ai/skills/cratis-csharp-standards/references/exceptions-logging-di.md"
+      ],
+      "packagedSourcePaths": [
+        ".ai/skills/cratis-csharp-standards/SKILL.md",
+        ".ai/skills/cratis-csharp-standards/references/code-style.md",
+        ".ai/skills/cratis-csharp-standards/references/domain-philosophy.md",
+        ".ai/skills/cratis-csharp-standards/references/exceptions-logging-di.md"
+      ],
+      "excludedSourcePaths": [
+        ".ai/skills/cratis-csharp-standards/evals/evals.json"
+      ]
+    },
+    {
+      "sourceId": "edit-cratis-docs",
+      "sourcePath": "engineering/skills/cratis-engineering-docs-edit-page",
+      "sourceRevision": "684d03755bacd40af95463b81b4a0c8b9f088ec1",
+      "contentDigest": "c6b98ea12de1607871036d3f421ad3fc5e05149fcb21e7bbf83d3a613153357e",
+      "sourceContractPaths": [
+        "engineering/skills/cratis-engineering-docs-edit-page/LICENSE",
+        "engineering/skills/cratis-engineering-docs-edit-page/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-edit-page/references/source-discovery.md"
+      ],
+      "packagedSourcePaths": [
+        "engineering/skills/cratis-engineering-docs-edit-page/LICENSE",
+        "engineering/skills/cratis-engineering-docs-edit-page/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-edit-page/references/source-discovery.md"
+      ],
+      "excludedSourcePaths": []
+    },
+    {
+      "sourceId": "ship-changes",
+      "sourcePath": ".ai/skills/ship-changes",
+      "sourceRevision": "6b5388ddc660e8c9ddae0d7aa3ef3b5581a9f979",
+      "contentDigest": "50da7fc943211e31a11dffd64df4685470b16b8feef91e46f8aaa867ad4bd61c",
+      "sourceContractPaths": [
+        ".ai/skills/ship-changes/SKILL.md",
+        ".ai/skills/ship-changes/evals/evals.json"
+      ],
+      "packagedSourcePaths": [
+        ".ai/skills/ship-changes/SKILL.md"
+      ],
+      "excludedSourcePaths": [
+        ".ai/skills/ship-changes/evals/evals.json"
+      ]
+    },
+    {
+      "sourceId": "skill-creator",
+      "sourcePath": ".ai/skills/skill-creator",
+      "sourceRevision": "b795d5307e20f7f7458a67708b4f26975e223796",
+      "contentDigest": "73ecdb5e10b97225f0011c33caa5d83ba4d7c1fb89fb6722dde1e1f6524166ed",
+      "sourceContractPaths": [
+        ".ai/skills/skill-creator/LICENSE.txt",
+        ".ai/skills/skill-creator/SKILL.md",
+        ".ai/skills/skill-creator/agents/analyzer.md",
+        ".ai/skills/skill-creator/agents/comparator.md",
+        ".ai/skills/skill-creator/agents/grader.md",
+        ".ai/skills/skill-creator/assets/eval_review.html",
+        ".ai/skills/skill-creator/eval-viewer/generate_review.py",
+        ".ai/skills/skill-creator/eval-viewer/viewer.html",
+        ".ai/skills/skill-creator/references/schemas.md",
+        ".ai/skills/skill-creator/scripts/__init__.py",
+        ".ai/skills/skill-creator/scripts/aggregate_benchmark.py",
+        ".ai/skills/skill-creator/scripts/generate_report.py",
+        ".ai/skills/skill-creator/scripts/improve_description.py",
+        ".ai/skills/skill-creator/scripts/package_skill.py",
+        ".ai/skills/skill-creator/scripts/quick_validate.py",
+        ".ai/skills/skill-creator/scripts/restructure_evals.py",
+        ".ai/skills/skill-creator/scripts/run_eval.py",
+        ".ai/skills/skill-creator/scripts/run_loop.py",
+        ".ai/skills/skill-creator/scripts/utils.py"
+      ],
+      "packagedSourcePaths": [
+        ".ai/skills/skill-creator/LICENSE.txt",
+        ".ai/skills/skill-creator/SKILL.md",
+        ".ai/skills/skill-creator/assets/eval_review.html",
+        ".ai/skills/skill-creator/references/schemas.md"
+      ],
+      "excludedSourcePaths": [
+        ".ai/skills/skill-creator/agents/analyzer.md",
+        ".ai/skills/skill-creator/agents/comparator.md",
+        ".ai/skills/skill-creator/agents/grader.md",
+        ".ai/skills/skill-creator/eval-viewer/generate_review.py",
+        ".ai/skills/skill-creator/eval-viewer/viewer.html",
+        ".ai/skills/skill-creator/scripts/__init__.py",
+        ".ai/skills/skill-creator/scripts/aggregate_benchmark.py",
+        ".ai/skills/skill-creator/scripts/generate_report.py",
+        ".ai/skills/skill-creator/scripts/improve_description.py",
+        ".ai/skills/skill-creator/scripts/package_skill.py",
+        ".ai/skills/skill-creator/scripts/quick_validate.py",
+        ".ai/skills/skill-creator/scripts/restructure_evals.py",
+        ".ai/skills/skill-creator/scripts/run_eval.py",
+        ".ai/skills/skill-creator/scripts/run_loop.py",
+        ".ai/skills/skill-creator/scripts/utils.py"
+      ]
+    },
+    {
+      "sourceId": "write-documentation",
+      "sourcePath": "engineering/skills/cratis-engineering-docs-authoring",
+      "sourceRevision": "f58bcf7f5cc9fc0e11305ada3b5ecb6fa20953e9",
+      "contentDigest": "9e9731cdb930999784fd8b244c3df7f0b49b54479d47fd26bc624e1b81e480fa",
+      "sourceContractPaths": [
+        "engineering/skills/cratis-engineering-docs-authoring/LICENSE",
+        "engineering/skills/cratis-engineering-docs-authoring/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-authoring/references/site-format.md"
+      ],
+      "packagedSourcePaths": [
+        "engineering/skills/cratis-engineering-docs-authoring/LICENSE",
+        "engineering/skills/cratis-engineering-docs-authoring/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-authoring/references/site-format.md"
+      ],
+      "excludedSourcePaths": []
+    }
+  ],
+  "assets": [
+    {
+      "harness": "agent-skills",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-agent-skills.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/agent-skills",
+      "size": 41102,
+      "sha256": "06b6962794f58f57d43b2817ab5395ca786fc07218e70c6e8040a96a665e4a0a"
+    },
+    {
+      "harness": "agent-plugin",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-agent-plugin.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/agent-plugin",
+      "size": 41363,
+      "sha256": "efed1dc8f2a7f517f44a6b1636f58d73a8e394502912b185437ddae8aa7b98de"
+    },
+    {
+      "harness": "claude",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-claude.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/claude",
+      "size": 41399,
+      "sha256": "b31f8d11ff6b450e60a7d9f5c00293e7d45ff097dfa4e46d985764670efc227c"
+    },
+    {
+      "harness": "codex",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-codex.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/codex",
+      "size": 41440,
+      "sha256": "6a5a51b7e36947de101d328d2cb01dfafa8a1545ae3cf9900a2921a8e164c6a8"
+    },
+    {
+      "harness": "copilot",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-copilot.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/copilot",
+      "size": 41506,
+      "sha256": "876105f26868b6c13c9fe8b6d2b59438a5cc19d5a6a8c758e38e40c91f5857bb"
+    },
+    {
+      "harness": "cursor",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-cursor.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/cursor",
+      "size": 41496,
+      "sha256": "36548a33c1595286e81e2eaceb05fd121f6450340c27312cf58225c7045e2f37"
+    },
+    {
+      "harness": "deepcode",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-deepcode.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/deepcode",
+      "size": 41115,
+      "sha256": "1129c5e443c3ef7b5b11ec7cd36c569f9a55b3c7135d79a32529f18c34c8f93d"
+    },
+    {
+      "harness": "deepseek",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-deepseek.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/deepseek",
+      "size": 41108,
+      "sha256": "80e9dcc5e1d5f4ed22e9b7dc5212ec99074f55acc415f21dca88d84301147bb7"
+    },
+    {
+      "harness": "gemini",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-gemini.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/gemini",
+      "size": 41230,
+      "sha256": "0210bb4b64ed4591dbd0c458f85a6a108f1ee2c4478918456fae5988896ac550"
+    },
+    {
+      "harness": "grok",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-grok.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/grok",
+      "size": 41399,
+      "sha256": "b31f8d11ff6b450e60a7d9f5c00293e7d45ff097dfa4e46d985764670efc227c"
+    },
+    {
+      "harness": "junie",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-junie.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/junie",
+      "size": 41399,
+      "sha256": "b31f8d11ff6b450e60a7d9f5c00293e7d45ff097dfa4e46d985764670efc227c"
+    },
+    {
+      "harness": "kiro",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-kiro.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/kiro",
+      "size": 41363,
+      "sha256": "efed1dc8f2a7f517f44a6b1636f58d73a8e394502912b185437ddae8aa7b98de"
+    },
+    {
+      "harness": "vscode",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-vscode.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/vscode",
+      "size": 41363,
+      "sha256": "efed1dc8f2a7f517f44a6b1636f58d73a8e394502912b185437ddae8aa7b98de"
+    },
+    {
+      "harness": "qwen",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-qwen.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/qwen",
+      "size": 41363,
+      "sha256": "efed1dc8f2a7f517f44a6b1636f58d73a8e394502912b185437ddae8aa7b98de"
+    },
+    {
+      "harness": "hermes",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-hermes.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/hermes",
+      "size": 41363,
+      "sha256": "efed1dc8f2a7f517f44a6b1636f58d73a8e394502912b185437ddae8aa7b98de"
+    },
+    {
+      "harness": "openclaw",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-openclaw.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/openclaw",
+      "size": 41363,
+      "sha256": "efed1dc8f2a7f517f44a6b1636f58d73a8e394502912b185437ddae8aa7b98de"
+    },
+    {
+      "harness": "grok-bot",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-grok-bot.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/grok-bot",
+      "size": 41363,
+      "sha256": "efed1dc8f2a7f517f44a6b1636f58d73a8e394502912b185437ddae8aa7b98de"
+    },
+    {
+      "harness": "nanoclaw",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-nanoclaw.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/nanoclaw",
+      "size": 41363,
+      "sha256": "efed1dc8f2a7f517f44a6b1636f58d73a8e394502912b185437ddae8aa7b98de"
+    },
+    {
+      "harness": "amp",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-amp.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/amp",
+      "size": 41102,
+      "sha256": "5162735556bfa1100e1d6b89af988da1643e250a255e8df6100947b4101e5e1c"
+    },
+    {
+      "harness": "augment",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-augment.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/augment",
+      "size": 41109,
+      "sha256": "32aaf87bb4c41119a26589e5f513cdb512280aea4205d5abbd4fc82194d3ae3d"
+    },
+    {
+      "harness": "cline",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-cline.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/cline",
+      "size": 41107,
+      "sha256": "2049050eccb9823fdad0b9472c06263a5a59fe776d080a5620d545bb174f9584"
+    },
+    {
+      "harness": "devin",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-devin.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/devin",
+      "size": 41102,
+      "sha256": "5162735556bfa1100e1d6b89af988da1643e250a255e8df6100947b4101e5e1c"
+    },
+    {
+      "harness": "github-cli",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-github-cli.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/github-cli",
+      "size": 41102,
+      "sha256": "5162735556bfa1100e1d6b89af988da1643e250a255e8df6100947b4101e5e1c"
+    },
+    {
+      "harness": "goose",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-goose.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/goose",
+      "size": 41102,
+      "sha256": "5162735556bfa1100e1d6b89af988da1643e250a255e8df6100947b4101e5e1c"
+    },
+    {
+      "harness": "kilo",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-kilo.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/kilo",
+      "size": 41110,
+      "sha256": "631ab4b565345515412562c8f543ad1fe8a6c77ac359c17f42360edd2b779d7f"
+    },
+    {
+      "harness": "opencode",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-opencode.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/opencode",
+      "size": 41108,
+      "sha256": "4ac3eafffa29adc8ac59956de0970e54b8e5616bd34cda54689e2fe887e56205"
+    },
+    {
+      "harness": "openhands",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-openhands.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/openhands",
+      "size": 41102,
+      "sha256": "5162735556bfa1100e1d6b89af988da1643e250a255e8df6100947b4101e5e1c"
+    },
+    {
+      "harness": "replit",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-replit.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/replit",
+      "size": 41102,
+      "sha256": "5162735556bfa1100e1d6b89af988da1643e250a255e8df6100947b4101e5e1c"
+    },
+    {
+      "harness": "visual-studio",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-visual-studio.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/visual-studio",
+      "size": 41105,
+      "sha256": "98cd1feede5cb8718897a613ee3a1ab34bdd297da0d9825f75913a1d7d59d162"
+    },
+    {
+      "harness": "windsurf",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-windsurf.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/windsurf",
+      "size": 41116,
+      "sha256": "bc40832007d6b1bc600f74114659f0f89857caf4cfd40105af28e2b2ac90ef24"
+    },
+    {
+      "harness": "zed",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-zed.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/zed",
+      "size": 41102,
+      "sha256": "5162735556bfa1100e1d6b89af988da1643e250a255e8df6100947b4101e5e1c"
+    },
+    {
+      "harness": "factory",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-factory.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/factory",
+      "size": 41110,
+      "sha256": "7cf92d771f08694eb2ec95eb49103b6cf880773b4476f2afc9400d2876378cc2"
+    },
+    {
+      "harness": "grok-native",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-grok-native.tar.gz",
+      "format": "tar+gzip",
+      "root": "harnesses/grok-native",
+      "size": 41111,
+      "sha256": "5b29c8d5103ba2d005a54df17ea3bc15fa975ee9b8eb004ef57de21c3143cb37"
+    },
+    {
+      "harness": "pi",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.1-candidate.1-pi.tgz",
+      "format": "tar+gzip",
+      "root": "harnesses/pi",
+      "size": 41368,
+      "sha256": "aa11b864e10d52ac80770defe7167afda51e041ad441c29810e7e57449d78bd0"
+    }
+  ],
+  "deterministicReleaseTree": {
+    "manifestPath": "deterministic-release-manifest.json",
+    "manifestSha256": "8896422c9b1a0b0382b5850c88809dac59c4db932746f7301a7bf5faca9e80c3",
+    "assetManifestPath": "candidate-asset-manifest.json",
+    "assetManifestSha256": "7ed4cc94616514b0ae27b81891060932d17104b6805f0749c1f1fc28491baf3e",
+    "assuranceReceiptPath": "artifact-assurance-receipt.json",
+    "assuranceReceiptSha256": "3ffaabd416fee6f9cfb357e330e460d3b9ad5d463e748040f48ce19555f67a21"
+  },
+  "portableCompliance": {
+    "profile": "cratis-passive-v1",
+    "profileDigest": "cc2a535c5200763ac079aa9b1441e59e6ae0f61298d4ce5853431fe88d6cf964",
+    "specifications": {
+      "agentPlugins": {
+        "version": "1.0.0",
+        "status": "published",
+        "pluginSchemaSha256": "0a4aad95ce337878ad38802ebf0daa3fde76abe3f65400c86bcbb1ec0b3ab883",
+        "mcpSchemaSha256": "6539175bfcdf43085855183e86da40ea94b166547a72b47ae9a0a390516d3acb",
+        "normativeSpecificationSha256": "97a658b7dca3ce1b4c2266b95da300fa51d9dc4ade59d73168e5f9104272da18"
+      },
+      "agentSkills": {
+        "status": "current-unversioned-specification",
+        "specificationSha256": "2b1dbb4fd80c31748d15812c4ebd3e66c09383d0c792801f617718684489e40d"
+      }
+    },
+    "receiptPath": "compliance-receipts.json",
+    "receiptSha256": "77cba28b10187d9b09d44b38049d008d7bda2f94791010e721a4ffc57aed619d",
+    "staticValidationInput": {
+      "assuranceId": "static-validation",
+      "outcome": "pass",
+      "supporting": false,
+      "reason": "Deterministic repository validation input; it does not establish host support or release approval."
+    },
+    "approvalGranted": false,
+    "supportGranted": false,
+    "publicationGranted": false,
+    "runtimeGranted": false,
+    "promotionGranted": false
+  },
+  "approvalEligible": false,
+  "installationSupported": false,
+  "publicationEligible": false,
+  "runtimeEligible": false,
+  "supportGranted": false,
+  "promotionEligible": false
+}
