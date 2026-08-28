@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.0.0",
+  "schemaPath": "distribution/public-marketplace-release.schema.json",
+  "schemaSha256": "ab1ca6d88091b81eaa27c29838ca687c23593638fced74cdf8a41224ac434316",
+  "state": "PUBLIC_EVALUATION_MARKETPLACE",
+  "version": "0.2.0",
+  "profileId": "public-cratis-ai",
+  "packageName": "@cratis/ai",
+  "description": "Cratis AI skills for event-sourced and CQRS application development",
+  "sourceCommit": "ba87a907cf45f11cb804d0a9063cb3709cce1b16",
+  "targetCount": 34,
+  "skillCount": 34,
+  "selectedHarnesses": [
+    "agent-skills",
+    "agent-plugin",
+    "claude",
+    "codex",
+    "copilot",
+    "cursor",
+    "gemini",
+    "kiro",
+    "pi"
+  ],
+  "marketplaceChannels": [
+    "agent-skills",
+    "agent-plugin",
+    "claude-code",
+    "codex-openai-submission",
+    "github-copilot",
+    "cursor-submission",
+    "gemini-cli",
+    "kiro",
+    "pi-git-package"
+  ],
+  "installationAvailable": true,
+  "installationSupported": false,
+  "supportGranted": false,
+  "promotionEligible": false
+}

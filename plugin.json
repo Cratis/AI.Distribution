@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "public-cratis-ai",
+  "version": "0.2.0",
+  "description": "Cratis AI skills for event-sourced and CQRS application development",
+  "author": {
+    "name": "Cratis",
+    "url": "https://cratis.io"
+  },
+  "homepage": "https://cratis.io/ai",
+  "repository": "https://github.com/Cratis/AI.Distribution",
+  "license": "MIT",
+  "keywords": [
+    "cratis",
+    "agent-skills"
+  ]
+}

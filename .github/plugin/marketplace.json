@@ -1,0 +1,19 @@
+{
+  "name": "cratis",
+  "owner": {
+    "name": "Cratis"
+  },
+  "metadata": {
+    "description": "Cratis AI skills for event-sourced and CQRS application development",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "public-cratis-ai",
+      "description": "Cratis AI skills for event-sourced and CQRS application development",
+      "version": "0.2.0",
+      "source": "./plugins/public-cratis-ai",
+      "strict": true
+    }
+  ]
+}

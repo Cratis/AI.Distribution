@@ -1,0 +1,5 @@
+{
+  "name": "public-cratis-ai",
+  "version": "0.2.0",
+  "description": "Cratis AI skills for event-sourced and CQRS application development"
+}

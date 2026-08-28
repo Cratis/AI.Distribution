@@ -1,270 +1,728 @@
 {
   "schemaVersion": "1.0.0",
-  "state": "FIXTURE_ONLY_LOCAL_STAGING",
-  "version": "0.0.0-fixture",
+  "state": "PUBLIC_EVALUATION_MARKETPLACE",
+  "version": "0.2.0",
+  "profileId": "public-cratis-ai",
   "generatedTargets": [
-    "canonical",
+    "agent-skills",
+    "agent-plugin",
     "claude",
     "codex",
     "copilot",
     "cursor",
     "gemini",
-    "junie",
     "kiro",
     "pi"
   ],
   "files": [
     {
+      "path": ".agents/plugins/marketplace.json",
+      "sha256": "96441cce905ac08d53aa6842f12e400ead370bbe39ccfd05cc0b9143f4cf0ef5",
+      "size": 377
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "sha256": "e3a18b82c3e84f50820b4bcb9ad752b44d2777af73a18100084f70f3385e44a8",
+      "size": 447
+    },
+    {
+      "path": ".cursor-plugin/marketplace.json",
+      "sha256": "da448ca1bb5ede9e0fb5348338d60c5607479371c6279d17ce15d6a813aa00ec",
+      "size": 425
+    },
+    {
+      "path": ".github/plugin/marketplace.json",
+      "sha256": "e3a18b82c3e84f50820b4bcb9ad752b44d2777af73a18100084f70f3385e44a8",
+      "size": 447
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8db23da452b8cee0e9aa8d49801000475bbcc30ab4e6e322e28d1146df7230a7",
+      "size": 1063
+    },
+    {
+      "path": "README.md",
+      "sha256": "5d7beef5fba80029f16674ad9b2f80144ddddabc594909cbf5febf26868c5894",
+      "size": 1147
+    },
+    {
       "path": "SHA256SUMS",
-      "sha256": "bea215850ebfaec6b4f41bae3afad038a7a12fd1292480f653417119e745587c",
-      "size": 5572
+      "sha256": "2331cf63df4ce9b60e3bc4d523bf23d957aae2e0154be9bad4df544429f9e7a7",
+      "size": 16377
     },
     {
-      "path": "canonical/skills/cratis-example/LICENSE",
+      "path": "gemini-extension.json",
+      "sha256": "421fc89f770174950d14116643783d3446ab793c99ddb05cd9d7ea053d4acf75",
+      "size": 143
+    },
+    {
+      "path": "marketplace-release.json",
+      "sha256": "cecdd773207c9e88fb377491fdca35ee511f523320009161739d220052296887",
+      "size": 1016
+    },
+    {
+      "path": "package.json",
+      "sha256": "97f6394890220eb53eab3ecab2a2a1a652cec4fecbe7e10724054e2d77a06516",
+      "size": 449
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "41b5d4892c55581e330a57accdbb2021b7b3f86130f4b1956d48185e09ac5d3a",
+      "size": 463
+    },
+    {
+      "path": "plugins/public-cratis-ai/.claude-plugin/plugin.json",
+      "sha256": "a9a78f1c5719a74c4edafab5f71e31748cecd4502d57b00f94654198afdf8765",
+      "size": 183
+    },
+    {
+      "path": "plugins/public-cratis-ai/.codex-plugin/plugin.json",
+      "sha256": "5e3610dee0f0d399a32d425551fbcdab81449248e6088a9f321b8239429c9e6b",
+      "size": 168
+    },
+    {
+      "path": "plugins/public-cratis-ai/plugin.json",
+      "sha256": "41b5d4892c55581e330a57accdbb2021b7b3f86130f4b1956d48185e09ac5d3a",
+      "size": 463
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/add-business-rule/SKILL.md",
+      "sha256": "e94076cb3fc215d2e358aa095be6a0490c04d37de2b4d8f6ac57afe0862e9456",
+      "size": 6683
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/add-ef-migration/SKILL.md",
+      "sha256": "d4e9952cb7042e33ee1c5547e64ebd58a8a6dd837843f72ba4cd002eb3b7e5f0",
+      "size": 5968
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/add-projection/SKILL.md",
+      "sha256": "e6c53b655a689a043785846b0842e4845397ac7aca706e724c0102dea45558d2",
+      "size": 6464
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/add-projection/references/CHRONICLE-API.md",
+      "sha256": "566a2b8b471623b5c87e872c3983e3fe4cad748fe6e9ad590151c0a6d9c07050",
+      "size": 4849
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/add-reactor/SKILL.md",
+      "sha256": "a0067468efcff0e47f175a06fa3afdb6d5bc2d1f72b7fdb7865d3edcfbe1a2b3",
+      "size": 6736
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/add-reducer/SKILL.md",
+      "sha256": "7b789a34cad977d818444a3ab9c8e19c22b1cdfea6a27b83e98beecfbf967273",
+      "size": 4321
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/auth-and-identity/SKILL.md",
+      "sha256": "91511bb9085ebc2b733d1abc24bafacd295811a100961d01764dcb3326e3bdb3",
+      "size": 9900
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/auth-and-identity/references/authentication.md",
+      "sha256": "594d6a9190a40a0da0c0afeb0c0915e7305f586b6c014f96c04d4d9476dc144e",
+      "size": 5014
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/auth-and-identity/references/authorization.md",
+      "sha256": "7875e1a34ee24170aa0bc99cc03954e13c1b3c7e180ff97dde8487cf015f93db",
+      "size": 6061
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/auth-and-identity/references/backend-identity.md",
+      "sha256": "b467a64027d017b8e39821bdcb7f77834350cd1b47625f603bad72a3a317bdf7",
+      "size": 14366
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/auth-and-identity/references/frontend.md",
+      "sha256": "6d9cbfbd50ff9539bb75e50a0fd8c7b930121716602718bb13c87503c6cc73ec",
+      "size": 4614
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/auth-and-identity/references/local-development.md",
+      "sha256": "497832d9d5a60fd0f9990dab275c0db0eb593476b3bdf8fd4a05009506579b68",
+      "size": 4226
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/call-command-from-code/SKILL.md",
+      "sha256": "4fb567fb9b9ca689e52e604b262f25a5172834d3549762df046fd3a9c90f40bb",
+      "size": 4269
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/cratis-command/SKILL.md",
+      "sha256": "315c1abd3f833e5d4222172f15635b55eb1775bbdbb79f84c9eb3d19bf12a61f",
+      "size": 11830
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/cratis-command/references/command-dialog.md",
+      "sha256": "8e65ece3f614d5c4224a34bd94ab481d80eca8b64bf8f4cbe07a487f1edb986b",
+      "size": 4793
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/cratis-command/references/command-result.md",
+      "sha256": "aae44ec2aeff16f40cc4d8996e7d4fc4c4925f0b705e3fedfb87f300bb7f344a",
+      "size": 2230
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/cratis-command/references/proxy-setup.md",
+      "sha256": "d8ebd3270d193ec743d74f80ace55cb57ff0eabbcef41419e9432efa233fa914",
+      "size": 1977
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/cratis-command/references/validation.md",
+      "sha256": "6ef7a29ac797cf16b0c43a34d7e859597638be739d4876b1748958d93179011a",
+      "size": 3242
+    },
+    {
+      "path": "plugins/public-cratis-ai/skills/cratis-fundamentals-concept/LICENSE",
       "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
       "size": 142
     },
     {
-      "path": "canonical/skills/cratis-example/SKILL.md",
-      "sha256": "53d2558526ac9e045d678c8474a990113a47dbc829aaf5cf1e9c5fa2e5e707ea",
-      "size": 246
+      "path": "plugins/public-cratis-ai/skills/cratis-fundamentals-concept/SKILL.md",
+      "sha256": "423ab2d27b08e13d3c7c3fbaf9bbc06ea1fb9a13610bdcfdf37398b12d593ec9",
+      "size": 7766
     },
     {
-      "path": "canonical/skills/cratis-example/assets/example.txt",
-      "sha256": "55b477cd965ea5b7591cfd935e3a859175b65b28a71fda708bdb52d8e4efc46b",
-      "size": 79
+      "path": "plugins/public-cratis-ai/skills/cratis-react-page/SKILL.md",
+      "sha256": "7dfe2eb8a8336f5b3f65af79105d07427b55cc651fac93fa979f42a6878b7f08",
+      "size": 8833
     },
     {
-      "path": "canonical/skills/cratis-example/references/guide.md",
-      "sha256": "e239fea6f77cca9286f70ce18a9f4e84849b9dd7c2e74ecf27314f8167b40864",
-      "size": 148
+      "path": "plugins/public-cratis-ai/skills/cratis-react-page/references/data-page.md",
+      "sha256": "d98695778cda0b5281ff0386165869023314d957cb89bfc100ad6a52fe907407",
+      "size": 3165
     },
     {
-      "path": "claude/.claude-plugin/marketplace.json",
-      "sha256": "74c8b56eb3c78e2bd163e9b3504915a8b0ba544149ed78999c7f4b49d225f8f3",
-      "size": 377
+      "path": "plugins/public-cratis-ai/skills/cratis-react-page/references/data-table.md",
+      "sha256": "6f3cdc12c81f9af67abed46ed4c698eb2a66691e9bed6a04d65d605b7445351e",
+      "size": 1770
     },
     {
-      "path": "claude/plugins/cratis/.claude-plugin/plugin.json",
-      "sha256": "c18d81ecb33d521eb7a0750c33c44a82e3094966a0c8196fc6d5f1b6f97eb75f",
-      "size": 144
+      "path": "plugins/public-cratis-ai/skills/cratis-react-page/references/dialogs.md",
+      "sha256": "a646df0fdd1a026e9c424eb823e5104d9482617dd8c6674d3756ce81309dd317",
+      "size": 6246
     },
     {
-      "path": "claude/plugins/cratis/skills/cratis-example/LICENSE",
-      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
-      "size": 142
+      "path": "plugins/public-cratis-ai/skills/cratis-react-page/references/mvvm.md",
+      "sha256": "8d4e85cdfdf179c2676b0d78fd91cca36268b7afbdf3439d4a98204b9cdd99e1",
+      "size": 3171
     },
     {
-      "path": "claude/plugins/cratis/skills/cratis-example/SKILL.md",
-      "sha256": "53d2558526ac9e045d678c8474a990113a47dbc829aaf5cf1e9c5fa2e5e707ea",
-      "size": 246
+      "path": "plugins/public-cratis-ai/skills/cratis-readmodel/SKILL.md",
+      "sha256": "be6b27a66f3fbeed427e3d18ab2004b919c9898ea3878151209fcff12fefbbdc",
+      "size": 10846
     },
     {
-      "path": "claude/plugins/cratis/skills/cratis-example/assets/example.txt",
-      "sha256": "55b477cd965ea5b7591cfd935e3a859175b65b28a71fda708bdb52d8e4efc46b",
-      "size": 79
+      "path": "plugins/public-cratis-ai/skills/cratis-readmodel/references/events.md",
+      "sha256": "4a957b608b4e44b08e8a85705aa9bc1fcddc7f1f3a0a5728c7ea6df75d61b5ef",
+      "size": 3199
     },
     {
-      "path": "claude/plugins/cratis/skills/cratis-example/references/guide.md",
-      "sha256": "e239fea6f77cca9286f70ce18a9f4e84849b9dd7c2e74ecf27314f8167b40864",
-      "size": 148
+      "path": "plugins/public-cratis-ai/skills/cratis-readmodel/references/projections.md",
+      "sha256": "217c727da14c4755941ff110bc799e23b0cddff151cc0a9ad4803daa141d6fad",
+      "size": 5930
     },
     {
-      "path": "codex/.agents/plugins/marketplace.json",
-      "sha256": "1cd12d1cb24101c1e49795633f4e3720a078ee96e6c9fc5cc471b4f1a035efc7",
-      "size": 357
+      "path": "plugins/public-cratis-ai/skills/cratis-readmodel/references/queries.md",
+      "sha256": "9ed01e8e3e0b87e263e217877daf417334d145d2d1b12c28dd072a8b410c81c3",
+      "size": 2655
     },
     {
-      "path": "codex/plugins/cratis/.codex-plugin/plugin.json",
-      "sha256": "1707ca7cd5392454bb6ce6d7e79bb31fbc6711b7f560b9b3acc91acf45048b9b",
-      "size": 129
+      "path": "plugins/public-cratis-ai/skills/cratis-readmodel/references/reducers.md",
+      "sha256": "89635a8aa7ddb7b1d144d07a35c4c93c3fbc75a254424424cad6921a1575f76e",
+      "size": 4163
     },
     {
-      "path": "codex/plugins/cratis/skills/cratis-example/LICENSE",
-      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
-      "size": 142
+      "path": "plugins/public-cratis-ai/skills/cratis-specs-csharp/SKILL.md",
+      "sha256": "fbde383f9b9fa4197934bf7bb86e349d184f1fa3497224ad42a6ab6b145783e8",
+      "size": 8458
     },
     {
-      "path": "codex/plugins/cratis/skills/cratis-example/SKILL.md",
-      "sha256": "53d2558526ac9e045d678c8474a990113a47dbc829aaf5cf1e9c5fa2e5e707ea",
-      "size": 246
+      "path": "plugins/public-cratis-ai/skills/cratis-specs-csharp/references/csharp-patterns.md",
+      "sha256": "c44ac0f1a3dc3de07adf2c67a3f85e2b40f890b4f16925bbc15abc9a08c946b4",
+      "size": 4620
     },
     {
-      "path": "codex/plugins/cratis/skills/cratis-example/assets/example.txt",
-      "sha256": "55b477cd965ea5b7591cfd935e3a859175b65b28a71fda708bdb52d8e4efc46b",
-      "size": 79
+      "path": "plugins/public-cratis-ai/skills/cratis-specs-csharp/references/integration-specs.md",
+      "sha256": "77b764f686c5561c9e10b10cd7d4c9953149b2e3fa2e623ca410b19d67c39806",
+      "size": 3990
     },
     {
-      "path": "codex/plugins/cratis/skills/cratis-example/references/guide.md",
-      "sha256": "e239fea6f77cca9286f70ce18a9f4e84849b9dd7c2e74ecf27314f8167b40864",
-      "size": 148
+      "path": "plugins/public-cratis-ai/skills/cratis-specs-typescript/SKILL.md",
+      "sha256": "eb01957bcdca52e6ef62b4f4e56091cae11d7f842265da972c3c0ee637d145b7",
+      "size": 4596
     },
     {
-      "path": "copilot/.github/plugin/marketplace.json",
-      "sha256": "74c8b56eb3c78e2bd163e9b3504915a8b0ba544149ed78999c7f4b49d225f8f3",
-      "size": 377
+      "path": "plugins/public-cratis-ai/skills/cratis-specs-typescript/references/typescript-patterns.md",
+      "sha256": "4eedccda9f8396efefcc1f8fb74c3582c8d157823080821e9d9b72a2b3f6a0b3",
+      "size": 4028
     },
     {
-      "path": "copilot/plugins/cratis/plugin.json",
-      "sha256": "c5ab52a726c1ecfd2e7eefc4902ebc9307bd7cd84ef42cf5ee9e0b201b10f1be",
-      "size": 127
+      "path": "plugins/public-cratis-ai/skills/cratis-vertical-slice/SKILL.md",
+      "sha256": "a5d90be9cfc37ac2a0c7b51a8a69fce815fb744e801ea94619dff96553a41045",
+      "size": 6807
     },
     {
-      "path": "copilot/plugins/cratis/skills/cratis-example/LICENSE",
-      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
-      "size": 142
+      "path": "plugins/public-cratis-ai/skills/cratis-vertical-slice/references/concepts.md",
+      "sha256": "9b22698ee8294568c0564c55f74baefd74f2cb5de99fd1b24eafe015cf305a14",
+      "size": 3133
     },
     {
-      "path": "copilot/plugins/cratis/skills/cratis-example/SKILL.md",
-      "sha256": "53d2558526ac9e045d678c8474a990113a47dbc829aaf5cf1e9c5fa2e5e707ea",
-      "size": 246
+      "path": "plugins/public-cratis-ai/skills/cratis-vertical-slice/references/slice-anatomy.md",
+      "sha256": "522466e36311425f92dfde6c49fd29b0b0f6064890ecb20da49d18b7b4103ca2",
+      "size": 6664
     },
     {
-      "path": "copilot/plugins/cratis/skills/cratis-example/assets/example.txt",
-      "sha256": "55b477cd965ea5b7591cfd935e3a859175b65b28a71fda708bdb52d8e4efc46b",
-      "size": 79
+      "path": "plugins/public-cratis-ai/skills/cratis-vertical-slice/references/slice-types.md",
+      "sha256": "84c25543bd94a9bcce2c0cbaadd4c47f94e69ca9caa090d8203f27fbd7eb67b6",
+      "size": 3617
     },
     {
-      "path": "copilot/plugins/cratis/skills/cratis-example/references/guide.md",
-      "sha256": "e239fea6f77cca9286f70ce18a9f4e84849b9dd7c2e74ecf27314f8167b40864",
-      "size": 148
+      "path": "plugins/public-cratis-ai/skills/create-event-model/SKILL.md",
+      "sha256": "620e9d13a8e2752098acd8c60b620cdb6df042f9a49c2072edf5eb882c715581",
+      "size": 5788
     },
     {
-      "path": "cursor/.cursor-plugin/marketplace.json",
-      "sha256": "cb0867d8796b5e852ad0754050952821745a8e91342ced01bac2120abf51d760",
-      "size": 355
+      "path": "plugins/public-cratis-ai/skills/cross-cutting-properties/SKILL.md",
+      "sha256": "633bef916d401d2ecd74358cc57d6a8e5783e57394ff806a33b44970080a7885",
+      "size": 3921
     },
     {
-      "path": "cursor/plugins/cratis/.cursor-plugin/plugin.json",
-      "sha256": "1707ca7cd5392454bb6ce6d7e79bb31fbc6711b7f560b9b3acc91acf45048b9b",
-      "size": 129
+      "path": "plugins/public-cratis-ai/skills/diagnose-slice/SKILL.md",
+      "sha256": "45839e11e7aa7c2b66e93a2b83b2cef964aa2aa8abeb9064a9505c90677e95ea",
+      "size": 5189
     },
     {
-      "path": "cursor/plugins/cratis/skills/cratis-example/LICENSE",
-      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
-      "size": 142
+      "path": "plugins/public-cratis-ai/skills/discover-implementations/SKILL.md",
+      "sha256": "907a0f4f3d06856b07f10c1465a7bc2c515d8ec27b0cb84ba335a217f7290cf0",
+      "size": 4881
     },
     {
-      "path": "cursor/plugins/cratis/skills/cratis-example/SKILL.md",
-      "sha256": "53d2558526ac9e045d678c8474a990113a47dbc829aaf5cf1e9c5fa2e5e707ea",
-      "size": 246
+      "path": "plugins/public-cratis-ai/skills/event-modeling/SKILL.md",
+      "sha256": "4cc24ccf0faf14066dad477aa87732a6e593ef263c9e0f377b1c9be59ed32f27",
+      "size": 6248
     },
     {
-      "path": "cursor/plugins/cratis/skills/cratis-example/assets/example.txt",
-      "sha256": "55b477cd965ea5b7591cfd935e3a859175b65b28a71fda708bdb52d8e4efc46b",
-      "size": 79
+      "path": "plugins/public-cratis-ai/skills/event-type-migrations/SKILL.md",
+      "sha256": "eec56904897163d9261d3ec976595956fa089a717c7854837ef318e75e387412",
+      "size": 4357
     },
     {
-      "path": "cursor/plugins/cratis/skills/cratis-example/references/guide.md",
-      "sha256": "e239fea6f77cca9286f70ce18a9f4e84849b9dd7c2e74ecf27314f8167b40864",
-      "size": 148
+      "path": "plugins/public-cratis-ai/skills/inspect-running-chronicle/SKILL.md",
+      "sha256": "d896c80b4a95a3517fbc66b9fc169c9a11b82096448cb1e7ce5a8a9e51d11aa3",
+      "size": 4909
     },
     {
-      "path": "gemini/gemini-extension.json",
-      "sha256": "a9dab3cb24b6c249933ba6d54eda1a7655227feb1e7d3bcbbfe3fa06d0cc7c51",
-      "size": 104
+      "path": "plugins/public-cratis-ai/skills/multi-tenancy/SKILL.md",
+      "sha256": "d88b6633208c7ce3dddb629567db8df2fcfda351c4191b326cee7c382f75ed31",
+      "size": 3160
     },
     {
-      "path": "gemini/skills/cratis-example/LICENSE",
-      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
-      "size": 142
+      "path": "plugins/public-cratis-ai/skills/new-vertical-slice/SKILL.md",
+      "sha256": "657c4b0d399a3e9d282210db7ff9d539fa5437bfbc40096f6df544aa965d80b3",
+      "size": 5459
     },
     {
-      "path": "gemini/skills/cratis-example/SKILL.md",
-      "sha256": "53d2558526ac9e045d678c8474a990113a47dbc829aaf5cf1e9c5fa2e5e707ea",
-      "size": 246
+      "path": "plugins/public-cratis-ai/skills/new-vertical-slice/references/PATTERNS.md",
+      "sha256": "5edc50e6056915e19fe16e0abfeb8fdb092f64c42c30b16bac7115ba503d49a4",
+      "size": 12808
     },
     {
-      "path": "gemini/skills/cratis-example/assets/example.txt",
-      "sha256": "55b477cd965ea5b7591cfd935e3a859175b65b28a71fda708bdb52d8e4efc46b",
-      "size": 79
+      "path": "plugins/public-cratis-ai/skills/query-paging/SKILL.md",
+      "sha256": "8287047a2741bb6648ac14f0f187c0d503d83639ec8e554252fdd228b4861294",
+      "size": 5234
     },
     {
-      "path": "gemini/skills/cratis-example/references/guide.md",
-      "sha256": "e239fea6f77cca9286f70ce18a9f4e84849b9dd7c2e74ecf27314f8167b40864",
-      "size": 148
+      "path": "plugins/public-cratis-ai/skills/review-code/SKILL.md",
+      "sha256": "6cd509452e8ec092f8c334ad25687fb524befdef62afa8c7bd1c820377bdf5de",
+      "size": 4585
     },
     {
-      "path": "junie/extensions/cratis/extension.json",
-      "sha256": "09cac930698e10a4ba68418ea6d436e52fdb5ccd3f6220a439505f417f463bf5",
-      "size": 74
+      "path": "plugins/public-cratis-ai/skills/review-code/references/CHECKLISTS.md",
+      "sha256": "0839f00edc122991650e3c7ee022a1fc3a9ba2a839945c0eff31f3d978c6c824",
+      "size": 5413
     },
     {
-      "path": "junie/extensions/cratis/skills/cratis-example/LICENSE",
-      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
-      "size": 142
+      "path": "plugins/public-cratis-ai/skills/review-performance/SKILL.md",
+      "sha256": "09b8a20a88cc68c364cff009b4e70a635b209da12f9345a1c1ae701a5ba4adb8",
+      "size": 2591
     },
     {
-      "path": "junie/extensions/cratis/skills/cratis-example/SKILL.md",
-      "sha256": "53d2558526ac9e045d678c8474a990113a47dbc829aaf5cf1e9c5fa2e5e707ea",
-      "size": 246
+      "path": "plugins/public-cratis-ai/skills/review-security/SKILL.md",
+      "sha256": "bb8e4a571f2814fe5b56ae6cb33a75e21b6484d80e7c5d3f340b0f185c11c68f",
+      "size": 2449
     },
     {
-      "path": "junie/extensions/cratis/skills/cratis-example/assets/example.txt",
-      "sha256": "55b477cd965ea5b7591cfd935e3a859175b65b28a71fda708bdb52d8e4efc46b",
-      "size": 79
+      "path": "plugins/public-cratis-ai/skills/scaffold-feature/SKILL.md",
+      "sha256": "1475435927c072ff27589e380b1fe08ab66c3e94dec7c8be91c7444e0858a4a0",
+      "size": 2225
     },
     {
-      "path": "junie/extensions/cratis/skills/cratis-example/references/guide.md",
-      "sha256": "e239fea6f77cca9286f70ce18a9f4e84849b9dd7c2e74ecf27314f8167b40864",
-      "size": 148
+      "path": "plugins/public-cratis-ai/skills/stepper-command-dialog/SKILL.md",
+      "sha256": "51316f7744182d1af9e3cb87259afc79a0f81534f813c17b54517f4b7b010b7e",
+      "size": 8572
     },
     {
-      "path": "kiro/plugin.json",
-      "sha256": "08a29f403a2542838840961be9269cf4b07fa46755e2dcea46d3b6ccbd15afc9",
-      "size": 239
+      "path": "plugins/public-cratis-ai/skills/toolbar/SKILL.md",
+      "sha256": "151cfeecaa911d2f16dc35385e644838ae8a61af60b4a0bbab3d2714744161ee",
+      "size": 10065
     },
     {
-      "path": "kiro/skills/cratis-example/LICENSE",
-      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
-      "size": 142
+      "path": "plugins/public-cratis-ai/skills/write-specs-events/SKILL.md",
+      "sha256": "58cf309e9f62c9f0618c72a49ad1707f5dd6c3f691b1d83cc52a22931ee1ac41",
+      "size": 6406
     },
     {
-      "path": "kiro/skills/cratis-example/SKILL.md",
-      "sha256": "53d2558526ac9e045d678c8474a990113a47dbc829aaf5cf1e9c5fa2e5e707ea",
-      "size": 246
+      "path": "plugins/public-cratis-ai/skills/write-specs-frontend/SKILL.md",
+      "sha256": "025c6f9cd3581a5738130ba4ba16cea15a4a6a615e735d3c53dcd3a28734f208",
+      "size": 3997
     },
     {
-      "path": "kiro/skills/cratis-example/assets/example.txt",
-      "sha256": "55b477cd965ea5b7591cfd935e3a859175b65b28a71fda708bdb52d8e4efc46b",
-      "size": 79
+      "path": "plugins/public-cratis-ai/skills/write-specs-readmodels/SKILL.md",
+      "sha256": "57d0f2511e950edf8b390a2b5c44cd4532a6aa258d78e8bffc7167a6449dc054",
+      "size": 6380
     },
     {
-      "path": "kiro/skills/cratis-example/references/guide.md",
-      "sha256": "e239fea6f77cca9286f70ce18a9f4e84849b9dd7c2e74ecf27314f8167b40864",
-      "size": 148
+      "path": "plugins/public-cratis-ai/skills/write-specs/SKILL.md",
+      "sha256": "e6bc79cd003e97c591dc0c12c7aa727b809f0e7a8ac9e5d05ad7ab6d79dc8c0e",
+      "size": 4785
     },
     {
-      "path": "pi/package/package.json",
-      "sha256": "df55debb3816cf9653145fa8da599e416cc98cd245536167177a9886dea77d97",
-      "size": 278
-    },
-    {
-      "path": "pi/package/skills/cratis-example/LICENSE",
-      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
-      "size": 142
-    },
-    {
-      "path": "pi/package/skills/cratis-example/SKILL.md",
-      "sha256": "53d2558526ac9e045d678c8474a990113a47dbc829aaf5cf1e9c5fa2e5e707ea",
-      "size": 246
-    },
-    {
-      "path": "pi/package/skills/cratis-example/assets/example.txt",
-      "sha256": "55b477cd965ea5b7591cfd935e3a859175b65b28a71fda708bdb52d8e4efc46b",
-      "size": 79
-    },
-    {
-      "path": "pi/package/skills/cratis-example/references/guide.md",
-      "sha256": "e239fea6f77cca9286f70ce18a9f4e84849b9dd7c2e74ecf27314f8167b40864",
-      "size": 148
+      "path": "plugins/public-cratis-ai/skills/write-specs/references/EXAMPLES.md",
+      "sha256": "6dc9b60a7a088c2a9860f4518c5256076b3b3256dd763b237aac05558787b03a",
+      "size": 5514
     },
     {
       "path": "provenance.json",
-      "sha256": "cf77e8c34fbbf3d5faedebde2751e6c1f69d8a9a97d160a1ea305a80af705e2f",
-      "size": 1231
+      "sha256": "4af274b470b4837164d1afd4a4b79bc835f5fcd3a3709cc10c2c0132eca06456",
+      "size": 23147
+    },
+    {
+      "path": "skills/add-business-rule/SKILL.md",
+      "sha256": "e94076cb3fc215d2e358aa095be6a0490c04d37de2b4d8f6ac57afe0862e9456",
+      "size": 6683
+    },
+    {
+      "path": "skills/add-ef-migration/SKILL.md",
+      "sha256": "d4e9952cb7042e33ee1c5547e64ebd58a8a6dd837843f72ba4cd002eb3b7e5f0",
+      "size": 5968
+    },
+    {
+      "path": "skills/add-projection/SKILL.md",
+      "sha256": "e6c53b655a689a043785846b0842e4845397ac7aca706e724c0102dea45558d2",
+      "size": 6464
+    },
+    {
+      "path": "skills/add-projection/references/CHRONICLE-API.md",
+      "sha256": "566a2b8b471623b5c87e872c3983e3fe4cad748fe6e9ad590151c0a6d9c07050",
+      "size": 4849
+    },
+    {
+      "path": "skills/add-reactor/SKILL.md",
+      "sha256": "a0067468efcff0e47f175a06fa3afdb6d5bc2d1f72b7fdb7865d3edcfbe1a2b3",
+      "size": 6736
+    },
+    {
+      "path": "skills/add-reducer/SKILL.md",
+      "sha256": "7b789a34cad977d818444a3ab9c8e19c22b1cdfea6a27b83e98beecfbf967273",
+      "size": 4321
+    },
+    {
+      "path": "skills/auth-and-identity/SKILL.md",
+      "sha256": "91511bb9085ebc2b733d1abc24bafacd295811a100961d01764dcb3326e3bdb3",
+      "size": 9900
+    },
+    {
+      "path": "skills/auth-and-identity/references/authentication.md",
+      "sha256": "594d6a9190a40a0da0c0afeb0c0915e7305f586b6c014f96c04d4d9476dc144e",
+      "size": 5014
+    },
+    {
+      "path": "skills/auth-and-identity/references/authorization.md",
+      "sha256": "7875e1a34ee24170aa0bc99cc03954e13c1b3c7e180ff97dde8487cf015f93db",
+      "size": 6061
+    },
+    {
+      "path": "skills/auth-and-identity/references/backend-identity.md",
+      "sha256": "b467a64027d017b8e39821bdcb7f77834350cd1b47625f603bad72a3a317bdf7",
+      "size": 14366
+    },
+    {
+      "path": "skills/auth-and-identity/references/frontend.md",
+      "sha256": "6d9cbfbd50ff9539bb75e50a0fd8c7b930121716602718bb13c87503c6cc73ec",
+      "size": 4614
+    },
+    {
+      "path": "skills/auth-and-identity/references/local-development.md",
+      "sha256": "497832d9d5a60fd0f9990dab275c0db0eb593476b3bdf8fd4a05009506579b68",
+      "size": 4226
+    },
+    {
+      "path": "skills/call-command-from-code/SKILL.md",
+      "sha256": "4fb567fb9b9ca689e52e604b262f25a5172834d3549762df046fd3a9c90f40bb",
+      "size": 4269
+    },
+    {
+      "path": "skills/cratis-command/SKILL.md",
+      "sha256": "315c1abd3f833e5d4222172f15635b55eb1775bbdbb79f84c9eb3d19bf12a61f",
+      "size": 11830
+    },
+    {
+      "path": "skills/cratis-command/references/command-dialog.md",
+      "sha256": "8e65ece3f614d5c4224a34bd94ab481d80eca8b64bf8f4cbe07a487f1edb986b",
+      "size": 4793
+    },
+    {
+      "path": "skills/cratis-command/references/command-result.md",
+      "sha256": "aae44ec2aeff16f40cc4d8996e7d4fc4c4925f0b705e3fedfb87f300bb7f344a",
+      "size": 2230
+    },
+    {
+      "path": "skills/cratis-command/references/proxy-setup.md",
+      "sha256": "d8ebd3270d193ec743d74f80ace55cb57ff0eabbcef41419e9432efa233fa914",
+      "size": 1977
+    },
+    {
+      "path": "skills/cratis-command/references/validation.md",
+      "sha256": "6ef7a29ac797cf16b0c43a34d7e859597638be739d4876b1748958d93179011a",
+      "size": 3242
+    },
+    {
+      "path": "skills/cratis-fundamentals-concept/LICENSE",
+      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
+      "size": 142
+    },
+    {
+      "path": "skills/cratis-fundamentals-concept/SKILL.md",
+      "sha256": "423ab2d27b08e13d3c7c3fbaf9bbc06ea1fb9a13610bdcfdf37398b12d593ec9",
+      "size": 7766
+    },
+    {
+      "path": "skills/cratis-react-page/SKILL.md",
+      "sha256": "7dfe2eb8a8336f5b3f65af79105d07427b55cc651fac93fa979f42a6878b7f08",
+      "size": 8833
+    },
+    {
+      "path": "skills/cratis-react-page/references/data-page.md",
+      "sha256": "d98695778cda0b5281ff0386165869023314d957cb89bfc100ad6a52fe907407",
+      "size": 3165
+    },
+    {
+      "path": "skills/cratis-react-page/references/data-table.md",
+      "sha256": "6f3cdc12c81f9af67abed46ed4c698eb2a66691e9bed6a04d65d605b7445351e",
+      "size": 1770
+    },
+    {
+      "path": "skills/cratis-react-page/references/dialogs.md",
+      "sha256": "a646df0fdd1a026e9c424eb823e5104d9482617dd8c6674d3756ce81309dd317",
+      "size": 6246
+    },
+    {
+      "path": "skills/cratis-react-page/references/mvvm.md",
+      "sha256": "8d4e85cdfdf179c2676b0d78fd91cca36268b7afbdf3439d4a98204b9cdd99e1",
+      "size": 3171
+    },
+    {
+      "path": "skills/cratis-readmodel/SKILL.md",
+      "sha256": "be6b27a66f3fbeed427e3d18ab2004b919c9898ea3878151209fcff12fefbbdc",
+      "size": 10846
+    },
+    {
+      "path": "skills/cratis-readmodel/references/events.md",
+      "sha256": "4a957b608b4e44b08e8a85705aa9bc1fcddc7f1f3a0a5728c7ea6df75d61b5ef",
+      "size": 3199
+    },
+    {
+      "path": "skills/cratis-readmodel/references/projections.md",
+      "sha256": "217c727da14c4755941ff110bc799e23b0cddff151cc0a9ad4803daa141d6fad",
+      "size": 5930
+    },
+    {
+      "path": "skills/cratis-readmodel/references/queries.md",
+      "sha256": "9ed01e8e3e0b87e263e217877daf417334d145d2d1b12c28dd072a8b410c81c3",
+      "size": 2655
+    },
+    {
+      "path": "skills/cratis-readmodel/references/reducers.md",
+      "sha256": "89635a8aa7ddb7b1d144d07a35c4c93c3fbc75a254424424cad6921a1575f76e",
+      "size": 4163
+    },
+    {
+      "path": "skills/cratis-specs-csharp/SKILL.md",
+      "sha256": "fbde383f9b9fa4197934bf7bb86e349d184f1fa3497224ad42a6ab6b145783e8",
+      "size": 8458
+    },
+    {
+      "path": "skills/cratis-specs-csharp/references/csharp-patterns.md",
+      "sha256": "c44ac0f1a3dc3de07adf2c67a3f85e2b40f890b4f16925bbc15abc9a08c946b4",
+      "size": 4620
+    },
+    {
+      "path": "skills/cratis-specs-csharp/references/integration-specs.md",
+      "sha256": "77b764f686c5561c9e10b10cd7d4c9953149b2e3fa2e623ca410b19d67c39806",
+      "size": 3990
+    },
+    {
+      "path": "skills/cratis-specs-typescript/SKILL.md",
+      "sha256": "eb01957bcdca52e6ef62b4f4e56091cae11d7f842265da972c3c0ee637d145b7",
+      "size": 4596
+    },
+    {
+      "path": "skills/cratis-specs-typescript/references/typescript-patterns.md",
+      "sha256": "4eedccda9f8396efefcc1f8fb74c3582c8d157823080821e9d9b72a2b3f6a0b3",
+      "size": 4028
+    },
+    {
+      "path": "skills/cratis-vertical-slice/SKILL.md",
+      "sha256": "a5d90be9cfc37ac2a0c7b51a8a69fce815fb744e801ea94619dff96553a41045",
+      "size": 6807
+    },
+    {
+      "path": "skills/cratis-vertical-slice/references/concepts.md",
+      "sha256": "9b22698ee8294568c0564c55f74baefd74f2cb5de99fd1b24eafe015cf305a14",
+      "size": 3133
+    },
+    {
+      "path": "skills/cratis-vertical-slice/references/slice-anatomy.md",
+      "sha256": "522466e36311425f92dfde6c49fd29b0b0f6064890ecb20da49d18b7b4103ca2",
+      "size": 6664
+    },
+    {
+      "path": "skills/cratis-vertical-slice/references/slice-types.md",
+      "sha256": "84c25543bd94a9bcce2c0cbaadd4c47f94e69ca9caa090d8203f27fbd7eb67b6",
+      "size": 3617
+    },
+    {
+      "path": "skills/create-event-model/SKILL.md",
+      "sha256": "620e9d13a8e2752098acd8c60b620cdb6df042f9a49c2072edf5eb882c715581",
+      "size": 5788
+    },
+    {
+      "path": "skills/cross-cutting-properties/SKILL.md",
+      "sha256": "633bef916d401d2ecd74358cc57d6a8e5783e57394ff806a33b44970080a7885",
+      "size": 3921
+    },
+    {
+      "path": "skills/diagnose-slice/SKILL.md",
+      "sha256": "45839e11e7aa7c2b66e93a2b83b2cef964aa2aa8abeb9064a9505c90677e95ea",
+      "size": 5189
+    },
+    {
+      "path": "skills/discover-implementations/SKILL.md",
+      "sha256": "907a0f4f3d06856b07f10c1465a7bc2c515d8ec27b0cb84ba335a217f7290cf0",
+      "size": 4881
+    },
+    {
+      "path": "skills/event-modeling/SKILL.md",
+      "sha256": "4cc24ccf0faf14066dad477aa87732a6e593ef263c9e0f377b1c9be59ed32f27",
+      "size": 6248
+    },
+    {
+      "path": "skills/event-type-migrations/SKILL.md",
+      "sha256": "eec56904897163d9261d3ec976595956fa089a717c7854837ef318e75e387412",
+      "size": 4357
+    },
+    {
+      "path": "skills/inspect-running-chronicle/SKILL.md",
+      "sha256": "d896c80b4a95a3517fbc66b9fc169c9a11b82096448cb1e7ce5a8a9e51d11aa3",
+      "size": 4909
+    },
+    {
+      "path": "skills/multi-tenancy/SKILL.md",
+      "sha256": "d88b6633208c7ce3dddb629567db8df2fcfda351c4191b326cee7c382f75ed31",
+      "size": 3160
+    },
+    {
+      "path": "skills/new-vertical-slice/SKILL.md",
+      "sha256": "657c4b0d399a3e9d282210db7ff9d539fa5437bfbc40096f6df544aa965d80b3",
+      "size": 5459
+    },
+    {
+      "path": "skills/new-vertical-slice/references/PATTERNS.md",
+      "sha256": "5edc50e6056915e19fe16e0abfeb8fdb092f64c42c30b16bac7115ba503d49a4",
+      "size": 12808
+    },
+    {
+      "path": "skills/query-paging/SKILL.md",
+      "sha256": "8287047a2741bb6648ac14f0f187c0d503d83639ec8e554252fdd228b4861294",
+      "size": 5234
+    },
+    {
+      "path": "skills/review-code/SKILL.md",
+      "sha256": "6cd509452e8ec092f8c334ad25687fb524befdef62afa8c7bd1c820377bdf5de",
+      "size": 4585
+    },
+    {
+      "path": "skills/review-code/references/CHECKLISTS.md",
+      "sha256": "0839f00edc122991650e3c7ee022a1fc3a9ba2a839945c0eff31f3d978c6c824",
+      "size": 5413
+    },
+    {
+      "path": "skills/review-performance/SKILL.md",
+      "sha256": "09b8a20a88cc68c364cff009b4e70a635b209da12f9345a1c1ae701a5ba4adb8",
+      "size": 2591
+    },
+    {
+      "path": "skills/review-security/SKILL.md",
+      "sha256": "bb8e4a571f2814fe5b56ae6cb33a75e21b6484d80e7c5d3f340b0f185c11c68f",
+      "size": 2449
+    },
+    {
+      "path": "skills/scaffold-feature/SKILL.md",
+      "sha256": "1475435927c072ff27589e380b1fe08ab66c3e94dec7c8be91c7444e0858a4a0",
+      "size": 2225
+    },
+    {
+      "path": "skills/stepper-command-dialog/SKILL.md",
+      "sha256": "51316f7744182d1af9e3cb87259afc79a0f81534f813c17b54517f4b7b010b7e",
+      "size": 8572
+    },
+    {
+      "path": "skills/toolbar/SKILL.md",
+      "sha256": "151cfeecaa911d2f16dc35385e644838ae8a61af60b4a0bbab3d2714744161ee",
+      "size": 10065
+    },
+    {
+      "path": "skills/write-specs-events/SKILL.md",
+      "sha256": "58cf309e9f62c9f0618c72a49ad1707f5dd6c3f691b1d83cc52a22931ee1ac41",
+      "size": 6406
+    },
+    {
+      "path": "skills/write-specs-frontend/SKILL.md",
+      "sha256": "025c6f9cd3581a5738130ba4ba16cea15a4a6a615e735d3c53dcd3a28734f208",
+      "size": 3997
+    },
+    {
+      "path": "skills/write-specs-readmodels/SKILL.md",
+      "sha256": "57d0f2511e950edf8b390a2b5c44cd4532a6aa258d78e8bffc7167a6449dc054",
+      "size": 6380
+    },
+    {
+      "path": "skills/write-specs/SKILL.md",
+      "sha256": "e6bc79cd003e97c591dc0c12c7aa727b809f0e7a8ac9e5d05ad7ab6d79dc8c0e",
+      "size": 4785
+    },
+    {
+      "path": "skills/write-specs/references/EXAMPLES.md",
+      "sha256": "6dc9b60a7a088c2a9860f4518c5256076b3b3256dd763b237aac05558787b03a",
+      "size": 5514
+    },
+    {
+      "path": "submissions/cursor.json",
+      "sha256": "406146ead65d1a4530a8c7d321192d2d3b2e37bb37a78113a9149f33b8410506",
+      "size": 507
+    },
+    {
+      "path": "submissions/openai.json",
+      "sha256": "0a6a79f150e7441a97e716fb153636cb6b9140d830a440faabbdb84cf180ee81",
+      "size": 2846
     }
   ],
-  "publicationEligible": false,
+  "publicationEligible": true,
+  "installationSupported": false,
+  "supportGranted": false,
   "promotionEligible": false
 }

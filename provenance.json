@@ -1,35 +1,639 @@
 {
   "schemaVersion": "1.0.0",
-  "state": "FIXTURE_ONLY_NOT_AN_ATTESTATION",
+  "state": "PUBLIC_EVALUATION_MARKETPLACE_NOT_SUPPORT",
   "canonicalRepository": "Cratis/AI",
-  "sourceArtifactId": "sanitized-public-materializer-fixture",
-  "sourceRevision": null,
-  "generator": "tooling/generate-distribution-fixture.mjs",
-  "version": "0.0.0-fixture",
-  "requirementsSha256": "9a937aaa98f18a2ea84150cac12790c917637886898d6adbc50d84d6b35bdbae",
-  "matrixSha256": "0f71f76c7105a51f20a308ded4946bd1c37a53bd6c09188c73e9a7396cf1d999",
-  "canonicalFiles": [
+  "distributionRepository": "Cratis/AI.Distribution",
+  "sourceCommit": "ba87a907cf45f11cb804d0a9063cb3709cce1b16",
+  "generator": "tooling/generate-public-marketplace-distribution.mjs",
+  "version": "0.2.0",
+  "profileId": "public-cratis-ai",
+  "selectedHarnesses": [
+    "agent-skills",
+    "agent-plugin",
+    "claude",
+    "codex",
+    "copilot",
+    "cursor",
+    "gemini",
+    "kiro",
+    "pi"
+  ],
+  "targetIds": [
+    "cratis-application-react-specifications",
+    "cratis-application-slice-diagnostics",
+    "cratis-application-slice-specifications",
+    "cratis-application-vertical-slice",
+    "cratis-arc-authentication-authorization-and-identity",
+    "cratis-arc-command",
+    "cratis-arc-command-execution",
+    "cratis-arc-command-validation",
+    "cratis-arc-ef-core-migration",
+    "cratis-arc-query-paging",
+    "cratis-arc-react-feature-scaffolding",
+    "cratis-arc-react-page",
+    "cratis-chronicle-cli-operations",
+    "cratis-chronicle-event-constraints",
+    "cratis-chronicle-event-metadata",
+    "cratis-chronicle-event-modeling",
+    "cratis-chronicle-event-specifications",
+    "cratis-chronicle-event-type-migration",
+    "cratis-chronicle-multi-tenancy",
+    "cratis-chronicle-projection",
+    "cratis-chronicle-reactor",
+    "cratis-chronicle-read-model",
+    "cratis-chronicle-read-model-specifications",
+    "cratis-chronicle-reducer",
+    "cratis-code-review",
+    "cratis-components-stepper-command-dialog",
+    "cratis-components-toolbar",
+    "cratis-event-model-diagram",
+    "cratis-fundamentals-concept",
+    "cratis-fundamentals-type-discovery",
+    "cratis-performance-review",
+    "cratis-security-review",
+    "cratis-specifications-csharp",
+    "cratis-specifications-typescript"
+  ],
+  "targetExclusions": [
     {
-      "path": "skills/cratis-example/LICENSE",
-      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
-      "size": 142
+      "targetId": "cratis-arc-observable-query-http",
+      "reason": "private-or-local-content"
     },
     {
-      "path": "skills/cratis-example/SKILL.md",
-      "sha256": "53d2558526ac9e045d678c8474a990113a47dbc829aaf5cf1e9c5fa2e5e707ea",
-      "size": 246
+      "targetId": "cratis-chronicle-mcp-inspection",
+      "reason": "mcp-guidance-materialization-blocked"
     },
     {
-      "path": "skills/cratis-example/assets/example.txt",
-      "sha256": "55b477cd965ea5b7591cfd935e3a859175b65b28a71fda708bdb52d8e4efc46b",
-      "size": 79
-    },
-    {
-      "path": "skills/cratis-example/references/guide.md",
-      "sha256": "e239fea6f77cca9286f70ce18a9f4e84849b9dd7c2e74ecf27314f8167b40864",
-      "size": 148
+      "targetId": "cratis-studio-mcp-safety-guidance",
+      "reason": "mcp-guidance-materialization-blocked"
     }
   ],
-  "publicationEligible": false,
+  "repositoryOnlySkillExclusions": [],
+  "nativeComponentsIncluded": false,
+  "nativeComponentsReason": "Native rules and instructions retain separate semantic artifacts and are not repackaged as skills.",
+  "canonicalFiles": [
+    {
+      "path": "skills/add-business-rule/SKILL.md",
+      "size": 6683,
+      "sha256": "e94076cb3fc215d2e358aa095be6a0490c04d37de2b4d8f6ac57afe0862e9456",
+      "copies": [
+        "skills/add-business-rule/SKILL.md",
+        "plugins/public-cratis-ai/skills/add-business-rule/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/add-ef-migration/SKILL.md",
+      "size": 5968,
+      "sha256": "d4e9952cb7042e33ee1c5547e64ebd58a8a6dd837843f72ba4cd002eb3b7e5f0",
+      "copies": [
+        "skills/add-ef-migration/SKILL.md",
+        "plugins/public-cratis-ai/skills/add-ef-migration/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/add-projection/SKILL.md",
+      "size": 6464,
+      "sha256": "e6c53b655a689a043785846b0842e4845397ac7aca706e724c0102dea45558d2",
+      "copies": [
+        "skills/add-projection/SKILL.md",
+        "plugins/public-cratis-ai/skills/add-projection/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/add-projection/references/CHRONICLE-API.md",
+      "size": 4849,
+      "sha256": "566a2b8b471623b5c87e872c3983e3fe4cad748fe6e9ad590151c0a6d9c07050",
+      "copies": [
+        "skills/add-projection/references/CHRONICLE-API.md",
+        "plugins/public-cratis-ai/skills/add-projection/references/CHRONICLE-API.md"
+      ]
+    },
+    {
+      "path": "skills/add-reactor/SKILL.md",
+      "size": 6736,
+      "sha256": "a0067468efcff0e47f175a06fa3afdb6d5bc2d1f72b7fdb7865d3edcfbe1a2b3",
+      "copies": [
+        "skills/add-reactor/SKILL.md",
+        "plugins/public-cratis-ai/skills/add-reactor/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/add-reducer/SKILL.md",
+      "size": 4321,
+      "sha256": "7b789a34cad977d818444a3ab9c8e19c22b1cdfea6a27b83e98beecfbf967273",
+      "copies": [
+        "skills/add-reducer/SKILL.md",
+        "plugins/public-cratis-ai/skills/add-reducer/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/auth-and-identity/SKILL.md",
+      "size": 9900,
+      "sha256": "91511bb9085ebc2b733d1abc24bafacd295811a100961d01764dcb3326e3bdb3",
+      "copies": [
+        "skills/auth-and-identity/SKILL.md",
+        "plugins/public-cratis-ai/skills/auth-and-identity/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/auth-and-identity/references/authentication.md",
+      "size": 5014,
+      "sha256": "594d6a9190a40a0da0c0afeb0c0915e7305f586b6c014f96c04d4d9476dc144e",
+      "copies": [
+        "skills/auth-and-identity/references/authentication.md",
+        "plugins/public-cratis-ai/skills/auth-and-identity/references/authentication.md"
+      ]
+    },
+    {
+      "path": "skills/auth-and-identity/references/authorization.md",
+      "size": 6061,
+      "sha256": "7875e1a34ee24170aa0bc99cc03954e13c1b3c7e180ff97dde8487cf015f93db",
+      "copies": [
+        "skills/auth-and-identity/references/authorization.md",
+        "plugins/public-cratis-ai/skills/auth-and-identity/references/authorization.md"
+      ]
+    },
+    {
+      "path": "skills/auth-and-identity/references/backend-identity.md",
+      "size": 14366,
+      "sha256": "b467a64027d017b8e39821bdcb7f77834350cd1b47625f603bad72a3a317bdf7",
+      "copies": [
+        "skills/auth-and-identity/references/backend-identity.md",
+        "plugins/public-cratis-ai/skills/auth-and-identity/references/backend-identity.md"
+      ]
+    },
+    {
+      "path": "skills/auth-and-identity/references/frontend.md",
+      "size": 4614,
+      "sha256": "6d9cbfbd50ff9539bb75e50a0fd8c7b930121716602718bb13c87503c6cc73ec",
+      "copies": [
+        "skills/auth-and-identity/references/frontend.md",
+        "plugins/public-cratis-ai/skills/auth-and-identity/references/frontend.md"
+      ]
+    },
+    {
+      "path": "skills/auth-and-identity/references/local-development.md",
+      "size": 4226,
+      "sha256": "497832d9d5a60fd0f9990dab275c0db0eb593476b3bdf8fd4a05009506579b68",
+      "copies": [
+        "skills/auth-and-identity/references/local-development.md",
+        "plugins/public-cratis-ai/skills/auth-and-identity/references/local-development.md"
+      ]
+    },
+    {
+      "path": "skills/call-command-from-code/SKILL.md",
+      "size": 4269,
+      "sha256": "4fb567fb9b9ca689e52e604b262f25a5172834d3549762df046fd3a9c90f40bb",
+      "copies": [
+        "skills/call-command-from-code/SKILL.md",
+        "plugins/public-cratis-ai/skills/call-command-from-code/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-command/SKILL.md",
+      "size": 11830,
+      "sha256": "315c1abd3f833e5d4222172f15635b55eb1775bbdbb79f84c9eb3d19bf12a61f",
+      "copies": [
+        "skills/cratis-command/SKILL.md",
+        "plugins/public-cratis-ai/skills/cratis-command/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-command/references/command-dialog.md",
+      "size": 4793,
+      "sha256": "8e65ece3f614d5c4224a34bd94ab481d80eca8b64bf8f4cbe07a487f1edb986b",
+      "copies": [
+        "skills/cratis-command/references/command-dialog.md",
+        "plugins/public-cratis-ai/skills/cratis-command/references/command-dialog.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-command/references/command-result.md",
+      "size": 2230,
+      "sha256": "aae44ec2aeff16f40cc4d8996e7d4fc4c4925f0b705e3fedfb87f300bb7f344a",
+      "copies": [
+        "skills/cratis-command/references/command-result.md",
+        "plugins/public-cratis-ai/skills/cratis-command/references/command-result.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-command/references/proxy-setup.md",
+      "size": 1977,
+      "sha256": "d8ebd3270d193ec743d74f80ace55cb57ff0eabbcef41419e9432efa233fa914",
+      "copies": [
+        "skills/cratis-command/references/proxy-setup.md",
+        "plugins/public-cratis-ai/skills/cratis-command/references/proxy-setup.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-command/references/validation.md",
+      "size": 3242,
+      "sha256": "6ef7a29ac797cf16b0c43a34d7e859597638be739d4876b1748958d93179011a",
+      "copies": [
+        "skills/cratis-command/references/validation.md",
+        "plugins/public-cratis-ai/skills/cratis-command/references/validation.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-fundamentals-concept/LICENSE",
+      "size": 142,
+      "sha256": "91062c99a13a9ae1cf4097be14c33b031b6b6944c79388753c6ddb0e98339d63",
+      "copies": [
+        "skills/cratis-fundamentals-concept/LICENSE",
+        "plugins/public-cratis-ai/skills/cratis-fundamentals-concept/LICENSE"
+      ]
+    },
+    {
+      "path": "skills/cratis-fundamentals-concept/SKILL.md",
+      "size": 7766,
+      "sha256": "423ab2d27b08e13d3c7c3fbaf9bbc06ea1fb9a13610bdcfdf37398b12d593ec9",
+      "copies": [
+        "skills/cratis-fundamentals-concept/SKILL.md",
+        "plugins/public-cratis-ai/skills/cratis-fundamentals-concept/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-react-page/SKILL.md",
+      "size": 8833,
+      "sha256": "7dfe2eb8a8336f5b3f65af79105d07427b55cc651fac93fa979f42a6878b7f08",
+      "copies": [
+        "skills/cratis-react-page/SKILL.md",
+        "plugins/public-cratis-ai/skills/cratis-react-page/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-react-page/references/data-page.md",
+      "size": 3165,
+      "sha256": "d98695778cda0b5281ff0386165869023314d957cb89bfc100ad6a52fe907407",
+      "copies": [
+        "skills/cratis-react-page/references/data-page.md",
+        "plugins/public-cratis-ai/skills/cratis-react-page/references/data-page.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-react-page/references/data-table.md",
+      "size": 1770,
+      "sha256": "6f3cdc12c81f9af67abed46ed4c698eb2a66691e9bed6a04d65d605b7445351e",
+      "copies": [
+        "skills/cratis-react-page/references/data-table.md",
+        "plugins/public-cratis-ai/skills/cratis-react-page/references/data-table.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-react-page/references/dialogs.md",
+      "size": 6246,
+      "sha256": "a646df0fdd1a026e9c424eb823e5104d9482617dd8c6674d3756ce81309dd317",
+      "copies": [
+        "skills/cratis-react-page/references/dialogs.md",
+        "plugins/public-cratis-ai/skills/cratis-react-page/references/dialogs.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-react-page/references/mvvm.md",
+      "size": 3171,
+      "sha256": "8d4e85cdfdf179c2676b0d78fd91cca36268b7afbdf3439d4a98204b9cdd99e1",
+      "copies": [
+        "skills/cratis-react-page/references/mvvm.md",
+        "plugins/public-cratis-ai/skills/cratis-react-page/references/mvvm.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-readmodel/SKILL.md",
+      "size": 10846,
+      "sha256": "be6b27a66f3fbeed427e3d18ab2004b919c9898ea3878151209fcff12fefbbdc",
+      "copies": [
+        "skills/cratis-readmodel/SKILL.md",
+        "plugins/public-cratis-ai/skills/cratis-readmodel/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-readmodel/references/events.md",
+      "size": 3199,
+      "sha256": "4a957b608b4e44b08e8a85705aa9bc1fcddc7f1f3a0a5728c7ea6df75d61b5ef",
+      "copies": [
+        "skills/cratis-readmodel/references/events.md",
+        "plugins/public-cratis-ai/skills/cratis-readmodel/references/events.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-readmodel/references/projections.md",
+      "size": 5930,
+      "sha256": "217c727da14c4755941ff110bc799e23b0cddff151cc0a9ad4803daa141d6fad",
+      "copies": [
+        "skills/cratis-readmodel/references/projections.md",
+        "plugins/public-cratis-ai/skills/cratis-readmodel/references/projections.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-readmodel/references/queries.md",
+      "size": 2655,
+      "sha256": "9ed01e8e3e0b87e263e217877daf417334d145d2d1b12c28dd072a8b410c81c3",
+      "copies": [
+        "skills/cratis-readmodel/references/queries.md",
+        "plugins/public-cratis-ai/skills/cratis-readmodel/references/queries.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-readmodel/references/reducers.md",
+      "size": 4163,
+      "sha256": "89635a8aa7ddb7b1d144d07a35c4c93c3fbc75a254424424cad6921a1575f76e",
+      "copies": [
+        "skills/cratis-readmodel/references/reducers.md",
+        "plugins/public-cratis-ai/skills/cratis-readmodel/references/reducers.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-specs-csharp/SKILL.md",
+      "size": 8458,
+      "sha256": "fbde383f9b9fa4197934bf7bb86e349d184f1fa3497224ad42a6ab6b145783e8",
+      "copies": [
+        "skills/cratis-specs-csharp/SKILL.md",
+        "plugins/public-cratis-ai/skills/cratis-specs-csharp/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-specs-csharp/references/csharp-patterns.md",
+      "size": 4620,
+      "sha256": "c44ac0f1a3dc3de07adf2c67a3f85e2b40f890b4f16925bbc15abc9a08c946b4",
+      "copies": [
+        "skills/cratis-specs-csharp/references/csharp-patterns.md",
+        "plugins/public-cratis-ai/skills/cratis-specs-csharp/references/csharp-patterns.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-specs-csharp/references/integration-specs.md",
+      "size": 3990,
+      "sha256": "77b764f686c5561c9e10b10cd7d4c9953149b2e3fa2e623ca410b19d67c39806",
+      "copies": [
+        "skills/cratis-specs-csharp/references/integration-specs.md",
+        "plugins/public-cratis-ai/skills/cratis-specs-csharp/references/integration-specs.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-specs-typescript/SKILL.md",
+      "size": 4596,
+      "sha256": "eb01957bcdca52e6ef62b4f4e56091cae11d7f842265da972c3c0ee637d145b7",
+      "copies": [
+        "skills/cratis-specs-typescript/SKILL.md",
+        "plugins/public-cratis-ai/skills/cratis-specs-typescript/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-specs-typescript/references/typescript-patterns.md",
+      "size": 4028,
+      "sha256": "4eedccda9f8396efefcc1f8fb74c3582c8d157823080821e9d9b72a2b3f6a0b3",
+      "copies": [
+        "skills/cratis-specs-typescript/references/typescript-patterns.md",
+        "plugins/public-cratis-ai/skills/cratis-specs-typescript/references/typescript-patterns.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-vertical-slice/SKILL.md",
+      "size": 6807,
+      "sha256": "a5d90be9cfc37ac2a0c7b51a8a69fce815fb744e801ea94619dff96553a41045",
+      "copies": [
+        "skills/cratis-vertical-slice/SKILL.md",
+        "plugins/public-cratis-ai/skills/cratis-vertical-slice/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-vertical-slice/references/concepts.md",
+      "size": 3133,
+      "sha256": "9b22698ee8294568c0564c55f74baefd74f2cb5de99fd1b24eafe015cf305a14",
+      "copies": [
+        "skills/cratis-vertical-slice/references/concepts.md",
+        "plugins/public-cratis-ai/skills/cratis-vertical-slice/references/concepts.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-vertical-slice/references/slice-anatomy.md",
+      "size": 6664,
+      "sha256": "522466e36311425f92dfde6c49fd29b0b0f6064890ecb20da49d18b7b4103ca2",
+      "copies": [
+        "skills/cratis-vertical-slice/references/slice-anatomy.md",
+        "plugins/public-cratis-ai/skills/cratis-vertical-slice/references/slice-anatomy.md"
+      ]
+    },
+    {
+      "path": "skills/cratis-vertical-slice/references/slice-types.md",
+      "size": 3617,
+      "sha256": "84c25543bd94a9bcce2c0cbaadd4c47f94e69ca9caa090d8203f27fbd7eb67b6",
+      "copies": [
+        "skills/cratis-vertical-slice/references/slice-types.md",
+        "plugins/public-cratis-ai/skills/cratis-vertical-slice/references/slice-types.md"
+      ]
+    },
+    {
+      "path": "skills/create-event-model/SKILL.md",
+      "size": 5788,
+      "sha256": "620e9d13a8e2752098acd8c60b620cdb6df042f9a49c2072edf5eb882c715581",
+      "copies": [
+        "skills/create-event-model/SKILL.md",
+        "plugins/public-cratis-ai/skills/create-event-model/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/cross-cutting-properties/SKILL.md",
+      "size": 3921,
+      "sha256": "633bef916d401d2ecd74358cc57d6a8e5783e57394ff806a33b44970080a7885",
+      "copies": [
+        "skills/cross-cutting-properties/SKILL.md",
+        "plugins/public-cratis-ai/skills/cross-cutting-properties/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/diagnose-slice/SKILL.md",
+      "size": 5189,
+      "sha256": "45839e11e7aa7c2b66e93a2b83b2cef964aa2aa8abeb9064a9505c90677e95ea",
+      "copies": [
+        "skills/diagnose-slice/SKILL.md",
+        "plugins/public-cratis-ai/skills/diagnose-slice/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/discover-implementations/SKILL.md",
+      "size": 4881,
+      "sha256": "907a0f4f3d06856b07f10c1465a7bc2c515d8ec27b0cb84ba335a217f7290cf0",
+      "copies": [
+        "skills/discover-implementations/SKILL.md",
+        "plugins/public-cratis-ai/skills/discover-implementations/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/event-modeling/SKILL.md",
+      "size": 6248,
+      "sha256": "4cc24ccf0faf14066dad477aa87732a6e593ef263c9e0f377b1c9be59ed32f27",
+      "copies": [
+        "skills/event-modeling/SKILL.md",
+        "plugins/public-cratis-ai/skills/event-modeling/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/event-type-migrations/SKILL.md",
+      "size": 4357,
+      "sha256": "eec56904897163d9261d3ec976595956fa089a717c7854837ef318e75e387412",
+      "copies": [
+        "skills/event-type-migrations/SKILL.md",
+        "plugins/public-cratis-ai/skills/event-type-migrations/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/inspect-running-chronicle/SKILL.md",
+      "size": 4909,
+      "sha256": "d896c80b4a95a3517fbc66b9fc169c9a11b82096448cb1e7ce5a8a9e51d11aa3",
+      "copies": [
+        "skills/inspect-running-chronicle/SKILL.md",
+        "plugins/public-cratis-ai/skills/inspect-running-chronicle/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/multi-tenancy/SKILL.md",
+      "size": 3160,
+      "sha256": "d88b6633208c7ce3dddb629567db8df2fcfda351c4191b326cee7c382f75ed31",
+      "copies": [
+        "skills/multi-tenancy/SKILL.md",
+        "plugins/public-cratis-ai/skills/multi-tenancy/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/new-vertical-slice/SKILL.md",
+      "size": 5459,
+      "sha256": "657c4b0d399a3e9d282210db7ff9d539fa5437bfbc40096f6df544aa965d80b3",
+      "copies": [
+        "skills/new-vertical-slice/SKILL.md",
+        "plugins/public-cratis-ai/skills/new-vertical-slice/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/new-vertical-slice/references/PATTERNS.md",
+      "size": 12808,
+      "sha256": "5edc50e6056915e19fe16e0abfeb8fdb092f64c42c30b16bac7115ba503d49a4",
+      "copies": [
+        "skills/new-vertical-slice/references/PATTERNS.md",
+        "plugins/public-cratis-ai/skills/new-vertical-slice/references/PATTERNS.md"
+      ]
+    },
+    {
+      "path": "skills/query-paging/SKILL.md",
+      "size": 5234,
+      "sha256": "8287047a2741bb6648ac14f0f187c0d503d83639ec8e554252fdd228b4861294",
+      "copies": [
+        "skills/query-paging/SKILL.md",
+        "plugins/public-cratis-ai/skills/query-paging/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/review-code/SKILL.md",
+      "size": 4585,
+      "sha256": "6cd509452e8ec092f8c334ad25687fb524befdef62afa8c7bd1c820377bdf5de",
+      "copies": [
+        "skills/review-code/SKILL.md",
+        "plugins/public-cratis-ai/skills/review-code/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/review-code/references/CHECKLISTS.md",
+      "size": 5413,
+      "sha256": "0839f00edc122991650e3c7ee022a1fc3a9ba2a839945c0eff31f3d978c6c824",
+      "copies": [
+        "skills/review-code/references/CHECKLISTS.md",
+        "plugins/public-cratis-ai/skills/review-code/references/CHECKLISTS.md"
+      ]
+    },
+    {
+      "path": "skills/review-performance/SKILL.md",
+      "size": 2591,
+      "sha256": "09b8a20a88cc68c364cff009b4e70a635b209da12f9345a1c1ae701a5ba4adb8",
+      "copies": [
+        "skills/review-performance/SKILL.md",
+        "plugins/public-cratis-ai/skills/review-performance/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/review-security/SKILL.md",
+      "size": 2449,
+      "sha256": "bb8e4a571f2814fe5b56ae6cb33a75e21b6484d80e7c5d3f340b0f185c11c68f",
+      "copies": [
+        "skills/review-security/SKILL.md",
+        "plugins/public-cratis-ai/skills/review-security/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/scaffold-feature/SKILL.md",
+      "size": 2225,
+      "sha256": "1475435927c072ff27589e380b1fe08ab66c3e94dec7c8be91c7444e0858a4a0",
+      "copies": [
+        "skills/scaffold-feature/SKILL.md",
+        "plugins/public-cratis-ai/skills/scaffold-feature/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/stepper-command-dialog/SKILL.md",
+      "size": 8572,
+      "sha256": "51316f7744182d1af9e3cb87259afc79a0f81534f813c17b54517f4b7b010b7e",
+      "copies": [
+        "skills/stepper-command-dialog/SKILL.md",
+        "plugins/public-cratis-ai/skills/stepper-command-dialog/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/toolbar/SKILL.md",
+      "size": 10065,
+      "sha256": "151cfeecaa911d2f16dc35385e644838ae8a61af60b4a0bbab3d2714744161ee",
+      "copies": [
+        "skills/toolbar/SKILL.md",
+        "plugins/public-cratis-ai/skills/toolbar/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/write-specs-events/SKILL.md",
+      "size": 6406,
+      "sha256": "58cf309e9f62c9f0618c72a49ad1707f5dd6c3f691b1d83cc52a22931ee1ac41",
+      "copies": [
+        "skills/write-specs-events/SKILL.md",
+        "plugins/public-cratis-ai/skills/write-specs-events/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/write-specs-frontend/SKILL.md",
+      "size": 3997,
+      "sha256": "025c6f9cd3581a5738130ba4ba16cea15a4a6a615e735d3c53dcd3a28734f208",
+      "copies": [
+        "skills/write-specs-frontend/SKILL.md",
+        "plugins/public-cratis-ai/skills/write-specs-frontend/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/write-specs-readmodels/SKILL.md",
+      "size": 6380,
+      "sha256": "57d0f2511e950edf8b390a2b5c44cd4532a6aa258d78e8bffc7167a6449dc054",
+      "copies": [
+        "skills/write-specs-readmodels/SKILL.md",
+        "plugins/public-cratis-ai/skills/write-specs-readmodels/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/write-specs/SKILL.md",
+      "size": 4785,
+      "sha256": "e6bc79cd003e97c591dc0c12c7aa727b809f0e7a8ac9e5d05ad7ab6d79dc8c0e",
+      "copies": [
+        "skills/write-specs/SKILL.md",
+        "plugins/public-cratis-ai/skills/write-specs/SKILL.md"
+      ]
+    },
+    {
+      "path": "skills/write-specs/references/EXAMPLES.md",
+      "size": 5514,
+      "sha256": "6dc9b60a7a088c2a9860f4518c5256076b3b3256dd763b237aac05558787b03a",
+      "copies": [
+        "skills/write-specs/references/EXAMPLES.md",
+        "plugins/public-cratis-ai/skills/write-specs/references/EXAMPLES.md"
+      ]
+    }
+  ],
+  "installationAvailable": true,
+  "installationSupported": false,
+  "behaviorSupported": false,
+  "supportGranted": false,
   "promotionEligible": false
 }

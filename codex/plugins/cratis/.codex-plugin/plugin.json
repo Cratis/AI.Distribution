@@ -1,6 +1,0 @@
-{
-  "name": "cratis",
-  "version": "0.0.0-fixture",
-  "description": "Passive Cratis skills fixture.",
-  "skills": "./skills/"
-}
