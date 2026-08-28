@@ -1,0 +1,24 @@
+{
+  "name": "@cratis/ai",
+  "version": "0.2.0",
+  "description": "Cratis AI skills for event-sourced and CQRS application development",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cratis/AI.Distribution"
+  },
+  "homepage": "https://cratis.io/ai",
+  "files": [
+    "skills"
+  ],
+  "keywords": [
+    "pi-package",
+    "cratis"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}

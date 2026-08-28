@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "public-cratis-ai",
+  "displayName": "Cratis AI",
+  "repository": "https://github.com/Cratis/AI.Distribution",
+  "pluginManifest": "plugin.json",
+  "marketplaceManifest": ".cursor-plugin/marketplace.json",
+  "category": "Developer Tools",
+  "version": "0.2.0",
+  "description": "Cratis AI skills for event-sourced and CQRS application development",
+  "supportUrl": "https://github.com/Cratis/AI/issues",
+  "localValidationRequired": true,
+  "supportGranted": false
+}
