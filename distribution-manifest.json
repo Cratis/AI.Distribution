@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "state": "PUBLIC_EVALUATION_MARKETPLACE",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "profileId": "public-cratis-ai",
   "generatedTargets": [
     "agent-skills",
@@ -22,17 +22,17 @@
     },
     {
       "path": ".claude-plugin/marketplace.json",
-      "sha256": "e3a18b82c3e84f50820b4bcb9ad752b44d2777af73a18100084f70f3385e44a8",
+      "sha256": "8074fd4efb7aef4315abcef4351ebe917b3201b9f229051aacfc090da9ae764d",
       "size": 447
     },
     {
       "path": ".cursor-plugin/marketplace.json",
-      "sha256": "da448ca1bb5ede9e0fb5348338d60c5607479371c6279d17ce15d6a813aa00ec",
+      "sha256": "8c91b25bfc705a2f4cfbc83c349ef8ea192fe723e31e58e973531301a74c49f9",
       "size": 425
     },
     {
       "path": ".github/plugin/marketplace.json",
-      "sha256": "e3a18b82c3e84f50820b4bcb9ad752b44d2777af73a18100084f70f3385e44a8",
+      "sha256": "8074fd4efb7aef4315abcef4351ebe917b3201b9f229051aacfc090da9ae764d",
       "size": 447
     },
     {
@@ -42,47 +42,57 @@
     },
     {
       "path": "README.md",
-      "sha256": "5d7beef5fba80029f16674ad9b2f80144ddddabc594909cbf5febf26868c5894",
+      "sha256": "d2cf28e491761651bdddd62f6e18b8a039e5a07c3061c4877c604ab5671928e8",
       "size": 1147
     },
     {
       "path": "SHA256SUMS",
-      "sha256": "2331cf63df4ce9b60e3bc4d523bf23d957aae2e0154be9bad4df544429f9e7a7",
-      "size": 16377
+      "sha256": "3d6fe7a0a34ea4123c44841f97662b141a48b2c58530add98b5635376612e041",
+      "size": 16580
+    },
+    {
+      "path": "assets/cratis-logo.png",
+      "sha256": "da99d76b1513c92617e4f3104437fe8988a3b94cc27d457955eb7e155403b7f6",
+      "size": 8035
     },
     {
       "path": "gemini-extension.json",
-      "sha256": "421fc89f770174950d14116643783d3446ab793c99ddb05cd9d7ea053d4acf75",
+      "sha256": "40ead36f9f411b8cd5751cbf817249eda647c0beb3389b5bc1b2a72c2e1b8ec4",
       "size": 143
     },
     {
       "path": "marketplace-release.json",
-      "sha256": "cecdd773207c9e88fb377491fdca35ee511f523320009161739d220052296887",
+      "sha256": "2316f761d8eae37b21c6245ed7503982d52bf40502e7320f613021fefeb6af9d",
       "size": 1016
     },
     {
       "path": "package.json",
-      "sha256": "97f6394890220eb53eab3ecab2a2a1a652cec4fecbe7e10724054e2d77a06516",
+      "sha256": "3205023f00f4b0bf9064725cf6cc40d5206a6981b1a8347a9afafa771c74d47e",
       "size": 449
     },
     {
       "path": "plugin.json",
-      "sha256": "41b5d4892c55581e330a57accdbb2021b7b3f86130f4b1956d48185e09ac5d3a",
+      "sha256": "d6b793178c14f790fddb7aa8576bfadf70fd47927107eec3f92198093ae413e1",
       "size": 463
     },
     {
       "path": "plugins/public-cratis-ai/.claude-plugin/plugin.json",
-      "sha256": "a9a78f1c5719a74c4edafab5f71e31748cecd4502d57b00f94654198afdf8765",
+      "sha256": "03eb2fd09c658a3bbd5771574b304068d048ff9653255dec29ee63f76baee6ac",
       "size": 183
     },
     {
       "path": "plugins/public-cratis-ai/.codex-plugin/plugin.json",
-      "sha256": "5e3610dee0f0d399a32d425551fbcdab81449248e6088a9f321b8239429c9e6b",
-      "size": 168
+      "sha256": "8216d19f8f3f32901bc6d4d7453b05a54ec07aeb2fb9122683938dbf0a3da1ca",
+      "size": 981
+    },
+    {
+      "path": "plugins/public-cratis-ai/assets/cratis-logo.png",
+      "sha256": "da99d76b1513c92617e4f3104437fe8988a3b94cc27d457955eb7e155403b7f6",
+      "size": 8035
     },
     {
       "path": "plugins/public-cratis-ai/plugin.json",
-      "sha256": "41b5d4892c55581e330a57accdbb2021b7b3f86130f4b1956d48185e09ac5d3a",
+      "sha256": "d6b793178c14f790fddb7aa8576bfadf70fd47927107eec3f92198093ae413e1",
       "size": 463
     },
     {
@@ -187,8 +197,8 @@
     },
     {
       "path": "plugins/public-cratis-ai/skills/cratis-react-page/SKILL.md",
-      "sha256": "7dfe2eb8a8336f5b3f65af79105d07427b55cc651fac93fa979f42a6878b7f08",
-      "size": 8833
+      "sha256": "e623dacbc6a3114236b70257046ac8445a4432c8fa7be16ac07bd7b59e3b165b",
+      "size": 10568
     },
     {
       "path": "plugins/public-cratis-ai/skills/cratis-react-page/references/data-page.md",
@@ -307,8 +317,8 @@
     },
     {
       "path": "plugins/public-cratis-ai/skills/event-type-migrations/SKILL.md",
-      "sha256": "eec56904897163d9261d3ec976595956fa089a717c7854837ef318e75e387412",
-      "size": 4357
+      "sha256": "459d68ef45d14b647d7523acf8177f698e798555b62eb1ae79d31cd50f1379cc",
+      "size": 7041
     },
     {
       "path": "plugins/public-cratis-ai/skills/inspect-running-chronicle/SKILL.md",
@@ -397,8 +407,8 @@
     },
     {
       "path": "provenance.json",
-      "sha256": "4af274b470b4837164d1afd4a4b79bc835f5fcd3a3709cc10c2c0132eca06456",
-      "size": 23147
+      "sha256": "e678f653db17e4195685c6e0caba23ca5c1a1974f67c0f5489dc541d6ebdc612",
+      "size": 23705
     },
     {
       "path": "skills/add-business-rule/SKILL.md",
@@ -502,8 +512,8 @@
     },
     {
       "path": "skills/cratis-react-page/SKILL.md",
-      "sha256": "7dfe2eb8a8336f5b3f65af79105d07427b55cc651fac93fa979f42a6878b7f08",
-      "size": 8833
+      "sha256": "e623dacbc6a3114236b70257046ac8445a4432c8fa7be16ac07bd7b59e3b165b",
+      "size": 10568
     },
     {
       "path": "skills/cratis-react-page/references/data-page.md",
@@ -622,8 +632,8 @@
     },
     {
       "path": "skills/event-type-migrations/SKILL.md",
-      "sha256": "eec56904897163d9261d3ec976595956fa089a717c7854837ef318e75e387412",
-      "size": 4357
+      "sha256": "459d68ef45d14b647d7523acf8177f698e798555b62eb1ae79d31cd50f1379cc",
+      "size": 7041
     },
     {
       "path": "skills/inspect-running-chronicle/SKILL.md",
@@ -712,13 +722,13 @@
     },
     {
       "path": "submissions/cursor.json",
-      "sha256": "406146ead65d1a4530a8c7d321192d2d3b2e37bb37a78113a9149f33b8410506",
+      "sha256": "0d50384ee27cb301a0af6e648b46046de9f8774bd7ae49b414910a46367cd711",
       "size": 507
     },
     {
       "path": "submissions/openai.json",
-      "sha256": "0a6a79f150e7441a97e716fb153636cb6b9140d830a440faabbdb84cf180ee81",
-      "size": 2846
+      "sha256": "e6a860edace4c93a013da26e06d87040743de6285ecb636418f5d783d656d7b6",
+      "size": 2939
     }
   ],
   "publicationEligible": true,

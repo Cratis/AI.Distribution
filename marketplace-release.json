@@ -3,11 +3,11 @@
   "schemaPath": "distribution/public-marketplace-release.schema.json",
   "schemaSha256": "ab1ca6d88091b81eaa27c29838ca687c23593638fced74cdf8a41224ac434316",
   "state": "PUBLIC_EVALUATION_MARKETPLACE",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "profileId": "public-cratis-ai",
   "packageName": "@cratis/ai",
   "description": "Cratis AI skills for event-sourced and CQRS application development",
-  "sourceCommit": "ba87a907cf45f11cb804d0a9063cb3709cce1b16",
+  "sourceCommit": "4d45c9a82e47f0bdb323055a920a7ce8fe2b4def",
   "targetCount": 34,
   "skillCount": 34,
   "selectedHarnesses": [

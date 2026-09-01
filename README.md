@@ -14,7 +14,7 @@ Passive skills for building event-sourced and CQRS applications with Cratis.
 ### OpenAI Codex CLI
 
 ```bash
-codex plugin marketplace add Cratis/AI.Distribution --ref v0.2.0
+codex plugin marketplace add Cratis/AI.Distribution --ref v0.2.1
 codex plugin add public-cratis-ai@cratis
 ```
 
@@ -28,7 +28,7 @@ copilot plugin install public-cratis-ai@cratis
 ### Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/Cratis/AI.Distribution --ref v0.2.0
+gemini extensions install https://github.com/Cratis/AI.Distribution --ref v0.2.1
 ```
 
 ### Kiro
@@ -38,7 +38,7 @@ Choose **Add Custom Power**, then import `https://github.com/Cratis/AI.Distribut
 ### Pi
 
 ```bash
-pi install git:github.com/Cratis/AI.Distribution@v0.2.0
+pi install git:github.com/Cratis/AI.Distribution@v0.2.1
 ```
 
 ### Generic Agent Skills and Agent Plugins
