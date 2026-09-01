@@ -1,6 +1,31 @@
 {
   "name": "public-cratis-ai",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Cratis AI skills for event-sourced and CQRS application development",
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "author": {
+    "name": "SINDRE ALSTAD WILTING"
+  },
+  "homepage": "https://cratis.io/ai",
+  "repository": "https://github.com/Cratis/AI.Distribution",
+  "license": "MIT",
+  "keywords": [
+    "cratis",
+    "event-sourcing",
+    "cqrs"
+  ],
+  "interface": {
+    "displayName": "Cratis AI",
+    "shortDescription": "Cratis skills for event-sourced and CQRS development",
+    "longDescription": "Cratis AI skills for event-sourced and CQRS application development",
+    "developerName": "SINDRE ALSTAD WILTING",
+    "category": "Developer Tools",
+    "websiteURL": "https://cratis.io/ai",
+    "defaultPrompt": [
+      "Use Cratis AI to model and implement this event-sourced behavior."
+    ],
+    "brandColor": "#000000",
+    "composerIcon": "./assets/cratis-logo.png",
+    "logo": "./assets/cratis-logo.png"
+  }
 }

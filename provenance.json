@@ -3,9 +3,9 @@
   "state": "PUBLIC_EVALUATION_MARKETPLACE_NOT_SUPPORT",
   "canonicalRepository": "Cratis/AI",
   "distributionRepository": "Cratis/AI.Distribution",
-  "sourceCommit": "ba87a907cf45f11cb804d0a9063cb3709cce1b16",
+  "sourceCommit": "4d45c9a82e47f0bdb323055a920a7ce8fe2b4def",
   "generator": "tooling/generate-public-marketplace-distribution.mjs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "profileId": "public-cratis-ai",
   "selectedHarnesses": [
     "agent-skills",
@@ -69,6 +69,21 @@
     }
   ],
   "repositoryOnlySkillExclusions": [],
+  "brandAsset": {
+    "sourceRepository": "https://github.com/Cratis/Documentation",
+    "sourceRevision": "a5a53c2cba1f3cbe5c29c5ec70fb3d533ac0694c",
+    "sourcePath": "web/public/favicon-512.png",
+    "sha256": "da99d76b1513c92617e4f3104437fe8988a3b94cc27d457955eb7e155403b7f6",
+    "copies": [
+      "assets/cratis-logo.png",
+      "plugins/public-cratis-ai/assets/cratis-logo.png"
+    ]
+  },
+  "openAiInterface": {
+    "developerName": "SINDRE ALSTAD WILTING",
+    "composerIcon": "./assets/cratis-logo.png",
+    "logo": "./assets/cratis-logo.png"
+  },
   "nativeComponentsIncluded": false,
   "nativeComponentsReason": "Native rules and instructions retain separate semantic artifacts and are not repackaged as skills.",
   "canonicalFiles": [
@@ -254,8 +269,8 @@
     },
     {
       "path": "skills/cratis-react-page/SKILL.md",
-      "size": 8833,
-      "sha256": "7dfe2eb8a8336f5b3f65af79105d07427b55cc651fac93fa979f42a6878b7f08",
+      "size": 10568,
+      "sha256": "e623dacbc6a3114236b70257046ac8445a4432c8fa7be16ac07bd7b59e3b165b",
       "copies": [
         "skills/cratis-react-page/SKILL.md",
         "plugins/public-cratis-ai/skills/cratis-react-page/SKILL.md"
@@ -470,8 +485,8 @@
     },
     {
       "path": "skills/event-type-migrations/SKILL.md",
-      "size": 4357,
-      "sha256": "eec56904897163d9261d3ec976595956fa089a717c7854837ef318e75e387412",
+      "size": 7041,
+      "sha256": "459d68ef45d14b647d7523acf8177f698e798555b62eb1ae79d31cd50f1379cc",
       "copies": [
         "skills/event-type-migrations/SKILL.md",
         "plugins/public-cratis-ai/skills/event-type-migrations/SKILL.md"
