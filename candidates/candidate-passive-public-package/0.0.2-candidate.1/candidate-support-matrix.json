@@ -1,0 +1,883 @@
+{
+  "schemaVersion": "1.0.0",
+  "state": "STATIC_CANDIDATE_VALIDATION_ONLY",
+  "artifactId": "candidate-passive-public-package",
+  "targetCount": 34,
+  "excludedTargetCount": 3,
+  "sourceSkillCount": 34,
+  "targets": [
+    {
+      "targetId": "cratis-application-react-specifications",
+      "sourceSkillIds": [
+        "write-specs-frontend"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-application-slice-diagnostics",
+      "sourceSkillIds": [
+        "diagnose-slice"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-application-slice-specifications",
+      "sourceSkillIds": [
+        "write-specs"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-application-vertical-slice",
+      "sourceSkillIds": [
+        "cratis-vertical-slice",
+        "new-vertical-slice"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-arc-authentication-authorization-and-identity",
+      "sourceSkillIds": [
+        "auth-and-identity"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-arc-command",
+      "sourceSkillIds": [
+        "cratis-command"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-arc-command-execution",
+      "sourceSkillIds": [
+        "call-command-from-code"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-arc-command-validation",
+      "sourceSkillIds": [
+        "add-business-rule"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-arc-ef-core-migration",
+      "sourceSkillIds": [
+        "add-ef-migration"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-arc-query-paging",
+      "sourceSkillIds": [
+        "query-paging"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-arc-react-feature-scaffolding",
+      "sourceSkillIds": [
+        "scaffold-feature"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-arc-react-page",
+      "sourceSkillIds": [
+        "cratis-react-page"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-cli-operations",
+      "sourceSkillIds": [
+        "inspect-running-chronicle"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-event-constraints",
+      "sourceSkillIds": [
+        "add-business-rule"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-event-metadata",
+      "sourceSkillIds": [
+        "cross-cutting-properties"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-event-modeling",
+      "sourceSkillIds": [
+        "event-modeling"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-event-specifications",
+      "sourceSkillIds": [
+        "write-specs-events"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-event-type-migration",
+      "sourceSkillIds": [
+        "event-type-migrations"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-multi-tenancy",
+      "sourceSkillIds": [
+        "multi-tenancy"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-projection",
+      "sourceSkillIds": [
+        "add-projection"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-reactor",
+      "sourceSkillIds": [
+        "add-reactor"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-read-model",
+      "sourceSkillIds": [
+        "cratis-readmodel"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-read-model-specifications",
+      "sourceSkillIds": [
+        "write-specs-readmodels"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-chronicle-reducer",
+      "sourceSkillIds": [
+        "add-reducer"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-code-review",
+      "sourceSkillIds": [
+        "review-code"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-components-stepper-command-dialog",
+      "sourceSkillIds": [
+        "stepper-command-dialog"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-components-toolbar",
+      "sourceSkillIds": [
+        "toolbar"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-event-model-diagram",
+      "sourceSkillIds": [
+        "create-event-model"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-fundamentals-concept",
+      "sourceSkillIds": [
+        "add-concept"
+      ],
+      "capabilityKind": "primitive",
+      "trustClass": "passive",
+      "trustAssessmentState": "assessed",
+      "securityDisposition": "accepted",
+      "evaluationStates": {
+        "behavior": "passing",
+        "positiveTrigger": "passing",
+        "negativeTrigger": "passing",
+        "collision": "passing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-fundamentals-type-discovery",
+      "sourceSkillIds": [
+        "discover-implementations"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-performance-review",
+      "sourceSkillIds": [
+        "review-performance"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-security-review",
+      "sourceSkillIds": [
+        "review-security"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-specifications-csharp",
+      "sourceSkillIds": [
+        "cratis-specs-csharp"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-specifications-typescript",
+      "sourceSkillIds": [
+        "cratis-specs-typescript"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    }
+  ],
+  "targetExclusions": [
+    {
+      "targetId": "cratis-arc-observable-query-http",
+      "reason": "private-or-local-content"
+    },
+    {
+      "targetId": "cratis-chronicle-mcp-inspection",
+      "reason": "mcp-guidance-materialization-blocked"
+    },
+    {
+      "targetId": "cratis-studio-mcp-safety-guidance",
+      "reason": "mcp-guidance-materialization-blocked"
+    }
+  ],
+  "repositoryOnlySkillExclusions": [],
+  "harnesses": [
+    {
+      "harness": "agent-skills",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "agent-plugin",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "claude",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "codex",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "copilot",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "cursor",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "deepcode",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "deepseek",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "gemini",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "grok",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "junie",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "kiro",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "vscode",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "qwen",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "hermes",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "openclaw",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "grok-bot",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "nanoclaw",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "amp",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "augment",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "cline",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "devin",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "github-cli",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "goose",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "kilo",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "opencode",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "openhands",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "replit",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "visual-studio",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "windsurf",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "zed",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "factory",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "grok-native",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "pi",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    }
+  ],
+  "approvalGranted": false,
+  "supportGranted": false,
+  "publicationGranted": false,
+  "runtimeGranted": false,
+  "promotionGranted": false
+}

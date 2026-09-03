@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.0.0",
+  "state": "DETERMINISTIC_RELEASE_TREE_VALIDATED",
+  "artifactId": "candidate-passive-engineering-package",
+  "audience": "cratis-engineering",
+  "bundleId": "engineering-all-candidate",
+  "version": "0.0.2-candidate.1",
+  "files": [
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-agent-plugin.tar.gz",
+      "size": 19001,
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-agent-skills.tar.gz",
+      "size": 18741,
+      "sha256": "70a4027ef8a9b069d00d6f942699228cf8cf125c6a30c579c9a4ef53b2ddb82c"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-amp.tar.gz",
+      "size": 18745,
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-augment.tar.gz",
+      "size": 18748,
+      "sha256": "299560eaee0f2b127c3dc150f6042e8fcae6c8ab2e1e5da23aeeeac052767eaa"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-claude.tar.gz",
+      "size": 19019,
+      "sha256": "7ae6bd2af01f6bcd9b4bfdf11efb405e117a8999208ec9dd70946b29a043ca1b"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-cline.tar.gz",
+      "size": 18746,
+      "sha256": "f7d4214631015069c760c0785dfc17dc29229691fa03100af5a87c38e26d917d"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-codex.tar.gz",
+      "size": 19058,
+      "sha256": "eed24aaa1ca772e8b26367fae95857815db619a7c92ca29a5b02dd024ca5a1a9"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-copilot.tar.gz",
+      "size": 19125,
+      "sha256": "3c65d437d1e8c4e02ce2b9121fe6d8872ce73aaefabacfd3884e0b076f9dae25"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-cursor.tar.gz",
+      "size": 19114,
+      "sha256": "fa1f360bf058c03f2b42ab0a2b13d075bd39a57bafcf457e69aacec2dfb413cc"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-deepcode.tar.gz",
+      "size": 18751,
+      "sha256": "a81579fa3cd44ade903f8c644816e5b7aa7731c2d32432e1c7167a7538c66622"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-deepseek.tar.gz",
+      "size": 18747,
+      "sha256": "cf025673f0fe23b0c99a40586410cd2fa62726733ec04c3438b6c08006d86c9f"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-devin.tar.gz",
+      "size": 18745,
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-factory.tar.gz",
+      "size": 18748,
+      "sha256": "b61980d1fb73e1662665d24e2a13e5621d96fbbe5e56735969ec4ad773afa762"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-gemini.tar.gz",
+      "size": 18870,
+      "sha256": "0d7e5e7388d468910695663a862e1e8068738a8785a5d6bae03da661103a5457"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-github-cli.tar.gz",
+      "size": 18745,
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-goose.tar.gz",
+      "size": 18745,
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-grok-bot.tar.gz",
+      "size": 19001,
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-grok-native.tar.gz",
+      "size": 18749,
+      "sha256": "8541e237a43a5f3cb4b07e27b54920afc10181f67e755077abc7303c7ee9b37f"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-grok.tar.gz",
+      "size": 19019,
+      "sha256": "7ae6bd2af01f6bcd9b4bfdf11efb405e117a8999208ec9dd70946b29a043ca1b"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-hermes.tar.gz",
+      "size": 19001,
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-junie.tar.gz",
+      "size": 19019,
+      "sha256": "7ae6bd2af01f6bcd9b4bfdf11efb405e117a8999208ec9dd70946b29a043ca1b"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-kilo.tar.gz",
+      "size": 18747,
+      "sha256": "b6fa617cc1bb31a7eb8c262d36b0d41ed844b467bfca16e5564a0eeddbe110ff"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-kiro.tar.gz",
+      "size": 19001,
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-nanoclaw.tar.gz",
+      "size": 19001,
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-openclaw.tar.gz",
+      "size": 19001,
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-opencode.tar.gz",
+      "size": 18748,
+      "sha256": "e750df41234345830c55ab419b60dd07387453e4033bbe8653f1f205d11c536a"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-openhands.tar.gz",
+      "size": 18745,
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-pi.tgz",
+      "size": 19005,
+      "sha256": "56565d13ac0f651bb838091946495e92f4ca525261a29beff5ca9651db3d6b0b"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-qwen.tar.gz",
+      "size": 19001,
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-replit.tar.gz",
+      "size": 18745,
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-visual-studio.tar.gz",
+      "size": 18744,
+      "sha256": "9c3ad925e10da0964206bc8c3cfd3ca526d6241a95635d0df688b197a0765951"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-vscode.tar.gz",
+      "size": 19001,
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-windsurf.tar.gz",
+      "size": 18751,
+      "sha256": "e6db3213536f62f5b45699635ac229a6f333e779fc8a624061fd2ca29d7d38a3"
+    },
+    {
+      "path": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-zed.tar.gz",
+      "size": 18745,
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    }
+  ],
+  "fileCount": 34,
+  "totalBytes": 641672,
+  "approvalGranted": false,
+  "supportGranted": false,
+  "publicationGranted": false,
+  "runtimeGranted": false,
+  "promotionGranted": false
+}

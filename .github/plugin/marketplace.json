@@ -5,13 +5,13 @@
   },
   "metadata": {
     "description": "Cratis AI skills for event-sourced and CQRS application development",
-    "version": "0.2.1"
+    "version": "0.3.0"
   },
   "plugins": [
     {
       "name": "public-cratis-ai",
       "description": "Cratis AI skills for event-sourced and CQRS application development",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "source": "./plugins/public-cratis-ai",
       "strict": true
     }

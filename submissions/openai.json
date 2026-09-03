@@ -9,7 +9,7 @@
   "website": "https://cratis.io/ai",
   "supportUrl": "https://github.com/Cratis/AI/issues",
   "sourceRepository": "https://github.com/Cratis/AI.Distribution",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "releaseNotes": "Initial unsupported 0.x public evaluation release.",
   "portalReadiness": "OWNER_IDENTITY_AND_LEGAL_METADATA_REQUIRED",
   "developerName": "SINDRE ALSTAD WILTING",
