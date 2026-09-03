@@ -1,0 +1,407 @@
+{
+  "schemaVersion": "1.0.0",
+  "state": "STATIC_CANDIDATE_VALIDATION_ONLY",
+  "artifactId": "candidate-passive-engineering-package",
+  "targetCount": 6,
+  "excludedTargetCount": 2,
+  "sourceSkillCount": 6,
+  "targets": [
+    {
+      "targetId": "cratis-engineering-chronicle-kernel-tracing",
+      "sourceSkillIds": [
+        "add-traces"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-engineering-csharp-conventions",
+      "sourceSkillIds": [
+        "cratis-csharp-standards"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-engineering-docs-add-page",
+      "sourceSkillIds": [
+        "add-cratis-docs-page"
+      ],
+      "capabilityKind": "journey",
+      "trustClass": "passive",
+      "trustAssessmentState": "assessed",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-engineering-docs-authoring",
+      "sourceSkillIds": [
+        "write-documentation"
+      ],
+      "capabilityKind": "journey",
+      "trustClass": "passive",
+      "trustAssessmentState": "assessed",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "passing",
+        "negativeTrigger": "passing",
+        "collision": "passing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-engineering-docs-edit-page",
+      "sourceSkillIds": [
+        "edit-cratis-docs"
+      ],
+      "capabilityKind": "journey",
+      "trustClass": "passive",
+      "trustAssessmentState": "assessed",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "missing",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    },
+    {
+      "targetId": "cratis-engineering-ship-changes",
+      "sourceSkillIds": [
+        "ship-changes"
+      ],
+      "capabilityKind": "unclassified",
+      "trustClass": "passive",
+      "trustAssessmentState": "unclassified",
+      "securityDisposition": "pending",
+      "evaluationStates": {
+        "behavior": "legacy-needs-migration",
+        "positiveTrigger": "missing",
+        "negativeTrigger": "missing",
+        "collision": "missing"
+      },
+      "approvalState": "candidate",
+      "runtimeIncluded": false
+    }
+  ],
+  "targetExclusions": [
+    {
+      "targetId": "cratis-engineering-docs-visual-qa",
+      "reason": "private-or-local-content"
+    },
+    {
+      "targetId": "skill-creator",
+      "reason": "incomplete-resource-and-license-closure"
+    }
+  ],
+  "repositoryOnlySkillExclusions": [
+    {
+      "componentId": "cratis-legacy-add-concept",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/add-concept"
+      ],
+      "reason": "legacy-retained-repository-only"
+    },
+    {
+      "componentId": "cratis-legacy-add-cratis-docs-page",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/add-cratis-docs-page"
+      ],
+      "reason": "legacy-retained-repository-only"
+    },
+    {
+      "componentId": "cratis-legacy-edit-cratis-docs",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/edit-cratis-docs"
+      ],
+      "reason": "legacy-retained-repository-only"
+    },
+    {
+      "componentId": "cratis-legacy-write-documentation",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/write-documentation"
+      ],
+      "reason": "legacy-retained-repository-only"
+    }
+  ],
+  "harnesses": [
+    {
+      "harness": "agent-skills",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "agent-plugin",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "claude",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "codex",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "copilot",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "cursor",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "deepcode",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "deepseek",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "gemini",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "grok",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "junie",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "kiro",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "vscode",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "qwen",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "hermes",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "openclaw",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "grok-bot",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "nanoclaw",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "amp",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "augment",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "cline",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "devin",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "github-cli",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "goose",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "kilo",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "opencode",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "openhands",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "replit",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "visual-studio",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "windsurf",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "zed",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "factory",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "grok-native",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    },
+    {
+      "harness": "pi",
+      "staticallyValidated": true,
+      "hostTested": false,
+      "lifecycleTested": false,
+      "supported": false
+    }
+  ],
+  "approvalGranted": false,
+  "supportGranted": false,
+  "publicationGranted": false,
+  "runtimeGranted": false,
+  "promotionGranted": false
+}

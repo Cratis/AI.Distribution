@@ -1,0 +1,371 @@
+{
+  "schemaVersion": "1.0.0",
+  "format": "cratis-passive-candidate-sbom-v1",
+  "artifactId": "candidate-passive-engineering-package",
+  "audience": "cratis-engineering",
+  "bundleId": "engineering-all-candidate",
+  "version": "0.0.2-candidate.1",
+  "licenseEvidence": {
+    "license": "MIT",
+    "path": "LICENSE",
+    "sha256": "8db23da452b8cee0e9aa8d49801000475bbcc30ab4e6e322e28d1146df7230a7"
+  },
+  "targetExclusions": [
+    {
+      "targetId": "cratis-engineering-docs-visual-qa",
+      "reason": "private-or-local-content"
+    },
+    {
+      "targetId": "skill-creator",
+      "reason": "incomplete-resource-and-license-closure"
+    }
+  ],
+  "repositoryOnlySkillExclusions": [
+    {
+      "componentId": "cratis-legacy-add-concept",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/add-concept"
+      ],
+      "reason": "legacy-retained-repository-only"
+    },
+    {
+      "componentId": "cratis-legacy-add-cratis-docs-page",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/add-cratis-docs-page"
+      ],
+      "reason": "legacy-retained-repository-only"
+    },
+    {
+      "componentId": "cratis-legacy-edit-cratis-docs",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/edit-cratis-docs"
+      ],
+      "reason": "legacy-retained-repository-only"
+    },
+    {
+      "componentId": "cratis-legacy-write-documentation",
+      "lifecycle": "legacy-retained",
+      "sourcePaths": [
+        ".ai/skills/write-documentation"
+      ],
+      "reason": "legacy-retained-repository-only"
+    }
+  ],
+  "components": [
+    {
+      "type": "agent-skill",
+      "name": "cratis-engineering-docs-add-page",
+      "sourceId": "add-cratis-docs-page",
+      "sourcePath": "engineering/skills/cratis-engineering-docs-add-page",
+      "sourceRevision": "684d03755bacd40af95463b81b4a0c8b9f088ec1",
+      "contentDigest": "60bb6acfc3af73b3c8d0e300f2620d74999ad8f0bc47dbaf207783225ae1f085",
+      "sourceContractPaths": [
+        "engineering/skills/cratis-engineering-docs-add-page/LICENSE",
+        "engineering/skills/cratis-engineering-docs-add-page/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-add-page/references/ownership-and-navigation.md"
+      ],
+      "packagedSourcePaths": [
+        "engineering/skills/cratis-engineering-docs-add-page/LICENSE",
+        "engineering/skills/cratis-engineering-docs-add-page/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-add-page/references/ownership-and-navigation.md"
+      ],
+      "excludedSourcePaths": [],
+      "targetIds": [
+        "cratis-engineering-docs-add-page"
+      ],
+      "license": "MIT"
+    },
+    {
+      "type": "agent-skill",
+      "name": "add-traces",
+      "sourceId": "add-traces",
+      "sourcePath": ".ai/skills/add-traces",
+      "sourceRevision": "b795d5307e20f7f7458a67708b4f26975e223796",
+      "contentDigest": "95b503d37799819abd59f1a920dd33a574d49bc74bac96127a0ac0009a95036b",
+      "sourceContractPaths": [
+        ".ai/skills/add-traces/SKILL.md"
+      ],
+      "packagedSourcePaths": [
+        ".ai/skills/add-traces/SKILL.md"
+      ],
+      "excludedSourcePaths": [],
+      "targetIds": [
+        "cratis-engineering-chronicle-kernel-tracing"
+      ],
+      "license": "MIT"
+    },
+    {
+      "type": "agent-skill",
+      "name": "cratis-csharp-standards",
+      "sourceId": "cratis-csharp-standards",
+      "sourcePath": ".ai/skills/cratis-csharp-standards",
+      "sourceRevision": "b795d5307e20f7f7458a67708b4f26975e223796",
+      "contentDigest": "87744eca811ce6c8f733a8e6fdb3f570e35e78b8e9a5eabcf2fca8339e01fb59",
+      "sourceContractPaths": [
+        ".ai/skills/cratis-csharp-standards/SKILL.md",
+        ".ai/skills/cratis-csharp-standards/evals/evals.json",
+        ".ai/skills/cratis-csharp-standards/references/code-style.md",
+        ".ai/skills/cratis-csharp-standards/references/domain-philosophy.md",
+        ".ai/skills/cratis-csharp-standards/references/exceptions-logging-di.md"
+      ],
+      "packagedSourcePaths": [
+        ".ai/skills/cratis-csharp-standards/SKILL.md",
+        ".ai/skills/cratis-csharp-standards/references/code-style.md",
+        ".ai/skills/cratis-csharp-standards/references/domain-philosophy.md",
+        ".ai/skills/cratis-csharp-standards/references/exceptions-logging-di.md"
+      ],
+      "excludedSourcePaths": [
+        ".ai/skills/cratis-csharp-standards/evals/evals.json"
+      ],
+      "targetIds": [
+        "cratis-engineering-csharp-conventions"
+      ],
+      "license": "MIT"
+    },
+    {
+      "type": "agent-skill",
+      "name": "cratis-engineering-docs-edit-page",
+      "sourceId": "edit-cratis-docs",
+      "sourcePath": "engineering/skills/cratis-engineering-docs-edit-page",
+      "sourceRevision": "684d03755bacd40af95463b81b4a0c8b9f088ec1",
+      "contentDigest": "c6b98ea12de1607871036d3f421ad3fc5e05149fcb21e7bbf83d3a613153357e",
+      "sourceContractPaths": [
+        "engineering/skills/cratis-engineering-docs-edit-page/LICENSE",
+        "engineering/skills/cratis-engineering-docs-edit-page/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-edit-page/references/source-discovery.md"
+      ],
+      "packagedSourcePaths": [
+        "engineering/skills/cratis-engineering-docs-edit-page/LICENSE",
+        "engineering/skills/cratis-engineering-docs-edit-page/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-edit-page/references/source-discovery.md"
+      ],
+      "excludedSourcePaths": [],
+      "targetIds": [
+        "cratis-engineering-docs-edit-page"
+      ],
+      "license": "MIT"
+    },
+    {
+      "type": "agent-skill",
+      "name": "ship-changes",
+      "sourceId": "ship-changes",
+      "sourcePath": ".ai/skills/ship-changes",
+      "sourceRevision": "6b5388ddc660e8c9ddae0d7aa3ef3b5581a9f979",
+      "contentDigest": "50da7fc943211e31a11dffd64df4685470b16b8feef91e46f8aaa867ad4bd61c",
+      "sourceContractPaths": [
+        ".ai/skills/ship-changes/SKILL.md",
+        ".ai/skills/ship-changes/evals/evals.json"
+      ],
+      "packagedSourcePaths": [
+        ".ai/skills/ship-changes/SKILL.md"
+      ],
+      "excludedSourcePaths": [
+        ".ai/skills/ship-changes/evals/evals.json"
+      ],
+      "targetIds": [
+        "cratis-engineering-ship-changes"
+      ],
+      "license": "MIT"
+    },
+    {
+      "type": "agent-skill",
+      "name": "cratis-engineering-docs-authoring",
+      "sourceId": "write-documentation",
+      "sourcePath": "engineering/skills/cratis-engineering-docs-authoring",
+      "sourceRevision": "f58bcf7f5cc9fc0e11305ada3b5ecb6fa20953e9",
+      "contentDigest": "9e9731cdb930999784fd8b244c3df7f0b49b54479d47fd26bc624e1b81e480fa",
+      "sourceContractPaths": [
+        "engineering/skills/cratis-engineering-docs-authoring/LICENSE",
+        "engineering/skills/cratis-engineering-docs-authoring/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-authoring/references/site-format.md"
+      ],
+      "packagedSourcePaths": [
+        "engineering/skills/cratis-engineering-docs-authoring/LICENSE",
+        "engineering/skills/cratis-engineering-docs-authoring/SKILL.md",
+        "engineering/skills/cratis-engineering-docs-authoring/references/site-format.md"
+      ],
+      "excludedSourcePaths": [],
+      "targetIds": [
+        "cratis-engineering-docs-authoring"
+      ],
+      "license": "MIT"
+    }
+  ],
+  "dependencies": [],
+  "executableComponents": [],
+  "assets": [
+    {
+      "harness": "agent-skills",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-agent-skills.tar.gz",
+      "sha256": "70a4027ef8a9b069d00d6f942699228cf8cf125c6a30c579c9a4ef53b2ddb82c"
+    },
+    {
+      "harness": "agent-plugin",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-agent-plugin.tar.gz",
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "harness": "claude",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-claude.tar.gz",
+      "sha256": "7ae6bd2af01f6bcd9b4bfdf11efb405e117a8999208ec9dd70946b29a043ca1b"
+    },
+    {
+      "harness": "codex",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-codex.tar.gz",
+      "sha256": "eed24aaa1ca772e8b26367fae95857815db619a7c92ca29a5b02dd024ca5a1a9"
+    },
+    {
+      "harness": "copilot",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-copilot.tar.gz",
+      "sha256": "3c65d437d1e8c4e02ce2b9121fe6d8872ce73aaefabacfd3884e0b076f9dae25"
+    },
+    {
+      "harness": "cursor",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-cursor.tar.gz",
+      "sha256": "fa1f360bf058c03f2b42ab0a2b13d075bd39a57bafcf457e69aacec2dfb413cc"
+    },
+    {
+      "harness": "deepcode",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-deepcode.tar.gz",
+      "sha256": "a81579fa3cd44ade903f8c644816e5b7aa7731c2d32432e1c7167a7538c66622"
+    },
+    {
+      "harness": "deepseek",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-deepseek.tar.gz",
+      "sha256": "cf025673f0fe23b0c99a40586410cd2fa62726733ec04c3438b6c08006d86c9f"
+    },
+    {
+      "harness": "gemini",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-gemini.tar.gz",
+      "sha256": "0d7e5e7388d468910695663a862e1e8068738a8785a5d6bae03da661103a5457"
+    },
+    {
+      "harness": "grok",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-grok.tar.gz",
+      "sha256": "7ae6bd2af01f6bcd9b4bfdf11efb405e117a8999208ec9dd70946b29a043ca1b"
+    },
+    {
+      "harness": "junie",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-junie.tar.gz",
+      "sha256": "7ae6bd2af01f6bcd9b4bfdf11efb405e117a8999208ec9dd70946b29a043ca1b"
+    },
+    {
+      "harness": "kiro",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-kiro.tar.gz",
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "harness": "vscode",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-vscode.tar.gz",
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "harness": "qwen",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-qwen.tar.gz",
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "harness": "hermes",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-hermes.tar.gz",
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "harness": "openclaw",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-openclaw.tar.gz",
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "harness": "grok-bot",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-grok-bot.tar.gz",
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "harness": "nanoclaw",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-nanoclaw.tar.gz",
+      "sha256": "79d7e597aae4dbf5e09a83950f9ccacd4a75622629599b0cc4d563be34bd41da"
+    },
+    {
+      "harness": "amp",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-amp.tar.gz",
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "harness": "augment",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-augment.tar.gz",
+      "sha256": "299560eaee0f2b127c3dc150f6042e8fcae6c8ab2e1e5da23aeeeac052767eaa"
+    },
+    {
+      "harness": "cline",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-cline.tar.gz",
+      "sha256": "f7d4214631015069c760c0785dfc17dc29229691fa03100af5a87c38e26d917d"
+    },
+    {
+      "harness": "devin",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-devin.tar.gz",
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "harness": "github-cli",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-github-cli.tar.gz",
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "harness": "goose",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-goose.tar.gz",
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "harness": "kilo",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-kilo.tar.gz",
+      "sha256": "b6fa617cc1bb31a7eb8c262d36b0d41ed844b467bfca16e5564a0eeddbe110ff"
+    },
+    {
+      "harness": "opencode",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-opencode.tar.gz",
+      "sha256": "e750df41234345830c55ab419b60dd07387453e4033bbe8653f1f205d11c536a"
+    },
+    {
+      "harness": "openhands",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-openhands.tar.gz",
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "harness": "replit",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-replit.tar.gz",
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "harness": "visual-studio",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-visual-studio.tar.gz",
+      "sha256": "9c3ad925e10da0964206bc8c3cfd3ca526d6241a95635d0df688b197a0765951"
+    },
+    {
+      "harness": "windsurf",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-windsurf.tar.gz",
+      "sha256": "e6db3213536f62f5b45699635ac229a6f333e779fc8a624061fd2ca29d7d38a3"
+    },
+    {
+      "harness": "zed",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-zed.tar.gz",
+      "sha256": "b32ee5fb334ab13d361dcbe58dad883082a7db9b48e2fb41a1ecd4b49c64d142"
+    },
+    {
+      "harness": "factory",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-factory.tar.gz",
+      "sha256": "b61980d1fb73e1662665d24e2a13e5621d96fbbe5e56735969ec4ad773afa762"
+    },
+    {
+      "harness": "grok-native",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-grok-native.tar.gz",
+      "sha256": "8541e237a43a5f3cb4b07e27b54920afc10181f67e755077abc7303c7ee9b37f"
+    },
+    {
+      "harness": "pi",
+      "filename": "cratis-ai-engineering-all-candidate-0.0.2-candidate.1-pi.tgz",
+      "sha256": "56565d13ac0f651bb838091946495e92f4ca525261a29beff5ca9651db3d6b0b"
+    }
+  ]
+}

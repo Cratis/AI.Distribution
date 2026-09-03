@@ -1,8 +1,8 @@
 {
   "name": "@cratis/ai",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Cratis AI skills for event-sourced and CQRS application development",
-  "private": false,
+  "private": true,
   "license": "MIT",
   "repository": {
     "type": "git",
